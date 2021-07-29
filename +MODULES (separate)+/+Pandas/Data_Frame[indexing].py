@@ -38,7 +38,8 @@ print('Вивід стовця як масива')
 print(Frame.Sex, '\n')  # Вивід стовця як масива
 
 print('Вивід стовця як таблиці')
-print(Frame[['Sex']], '\n')  # Вивід стовця як таблиці
+print(Frame[['Sex']].head(2), '\n')  # Вивід стовця як таблиці - "Series"
+print(Frame['Sex'].head(2), '\n')  # Вивід стовця як таблиці - "Frame"
 
 print('Вивід перших двох рядків т-ці')
 print(Frame.head(2), '\n')  # Вивід перших двох рядків т-ці
@@ -61,4 +62,4 @@ print(Frame[(Frame.Birth < datetime.datetime(1998, 4, 11)) & (Frame.Sex == 'Male
 print('Або')
 print(Frame[(Frame.Birth < datetime.datetime(1998, 4, 11)) | (Frame.Sex == 'Female')],
       '\n')  # 'Або'
-input()
+# input()
