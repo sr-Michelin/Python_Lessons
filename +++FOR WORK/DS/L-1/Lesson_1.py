@@ -68,7 +68,7 @@ print(f'Успішних трудоголіків: {round(p_p_m, 2)}%')
 
 # 10. Посчитайте среднее время работы (hours-per-week) зарабатывающих мало и много (salary)
 # для каждой страны (native-country).
-print('\nTask 9')
+print('\nTask 10')
 
 Salaries = set(P['salary'])
 Native_countries = set(P['native-country'])
