@@ -1,9 +1,13 @@
+import numpy as np
 import pandas as pd
-from colorama import init, Fore
 import datetime
 
-init()
-print(Fore.GREEN, 'Зчитані дані')
+# Налаштування стандартного виводу таьлиць:
+pd.set_option('display.max_columns', 7)  # кількість колонок без ...
+pd.set_option('display.max_rows', 7)  # кількість стовчиків без ...
+pd.set_option('precision', 2)  # кількість знаків після коми
+
+# Зчитування із csv - формату
 Frame = pd.read_csv('CSV1.csv', header=0, sep=';')
 print(Frame, '\n')
 
@@ -15,6 +19,7 @@ print(Frame, '\n')
 print('Новий стовпець')
 Frame['Birth'] = ['04.11.1998'] + ['01.01.1999'] * 3 + ['14.05.1999']  # Новий стовпець
 Frame['Sex'] = [None] * 4 + ['Female']
+Frame['course'] = [6] + [4] + [6] + [4] + [6]
 print(Frame, '\n')
 
 '---------------new------------------'
@@ -61,5 +66,34 @@ print(Frame[(Frame.Birth < datetime.datetime(1998, 4, 11)) & (Frame.Sex == 'Male
 
 print('Або')
 print(Frame[(Frame.Birth < datetime.datetime(1998, 4, 11)) | (Frame.Sex == 'Female')],
-      '\n')  # 'Або'
-# input()
+      '\n')
+
+print('Опис таблиці (статка)')
+print(Frame.describe(), '\n')  # min(), max(), std(), mean() та інші методи
+
+print('Групування таблиці за певними ознаками:', [i for i, j in Frame.groupby(['Name', 'Sex'])])
+
+# використування групування для подальшої статки через агрегацію відповідних ф-цій
+print(Frame.groupby('Sex')[['course']].agg(np.mean), '\n')  # ".agg(np.mean)" = ".mean()"
+
+print('Звідні таблиці "crosstab":')
+print(pd.crosstab(Frame['Name'], Frame['Sex']), '\n')  # позначення через "0" та "1" бінарних параметрів
+
+print('Створення колонки по признаку:')
+Frame['is_mag'] = (Frame['course'] >= 5).astype('int')  # ".astype('int')" - перевід True, False у 1,0
+print(Frame, '\n')
+
+print('Застосування ф-цій до значень таблиці:')
+print(Frame['Sex'].apply(lambda g: 0 if g == 'Male' else 1))  # через apply(lambda)
+print(Frame['is_mag'].map({0: 'False', 1: 'True'}), '\n')  # через map(dict)
+
+print('Розбір колонки за унікальними значеннями:')
+print(Frame['Sex'].value_counts(normalize=0), '\n')
+
+print('Сортування таблиці за певним параметром:')
+print(Frame.sort_values(by=['Name', 'course'], ascending=True), '\n')
+
+# print('Звідні таблиці, метод "privot_table":')
+# print(Frame.pivot_table(['0', '1', '2'], ['code'], aggfunc='mean'))
+
+
