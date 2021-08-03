@@ -13,7 +13,7 @@ if not os.path.isdir(f'plots/full_yield'):
 
 P = pd.read_excel('Task#2 statistical task.xlsx', sheet_name=1)
 testSystem_ = sorted(list(set(P['testSystem'])))
-print(P.columns)
+# print(P.columns)
 
 # Верхня межа для вибірки "yield"
 N = [0.9, 1.0]
@@ -27,6 +27,7 @@ for n in N:
     # вибірці із більшим "yield". Це наштовхує на те, що зменшення "yield" може залежати від finishedDate-releaseDate')
     P[P['yield'] <= n].plot.scatter(x='f_r', y='yield', color='black', alpha=0.6, linewidth=.2, figsize=(15, 7))
     plt.title(f'Task 2: finishedDate-releaseDate\nyield<={n}', fontsize=10)
+    plt.grid()
     plt.xlabel('finishedDate-releaseDate')
     plt.ylabel('yield')
 
@@ -40,7 +41,7 @@ for n in N:
     # загублених мікросхем - "lost" = "input" - "output" - "reject",
     # найнижчий вихід "yield")
 
-    for y in ['f_r', 'yield', 'lost', 'reject']:
+    for y in ['yield', 'lost', 'reject', 'f_r']:
         """Перебір усіх можливих числових колонок, значення яких є інформативними (на мою думку, звісно)"""
         P[P['yield'] <= n].boxplot(by='testSystem', column=y, grid=True, fontsize=10, figsize=(15, 7))
         plt.suptitle('')
@@ -90,3 +91,5 @@ for t in range(len(testSystem_)):
         f'std = {round(float(np.std(list(d_pp.values())[0])), 3)}, '
         f'q_25 = {round(np.quantile(list(d_pp.values())[0], .25), 3)}, '
         f'q_75 = {round(np.quantile(list(d_pp.values())[0], .75), 3)}')
+
+input('\nPress enter to exit...')
