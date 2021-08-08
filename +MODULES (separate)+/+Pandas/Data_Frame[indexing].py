@@ -95,3 +95,7 @@ print(Frame.sort_values(by=['Name', 'course'], ascending=True), '\n')
 
 # print('Звідні таблиці, метод "privot_table":')
 # print(Frame.pivot_table(['0', '1', '2'], ['code'], aggfunc='mean'))
+
+print(f"Вектор унікальних значень 'Name': {Frame['Name'].unique()}\n")
+
+Frame['is_mag'].dropna()  # Видалення значень 'nan' із колонки 'is_mag'
