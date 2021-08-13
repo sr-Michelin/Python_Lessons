@@ -1,6 +1,7 @@
 # Створення виключень та ітерабельних класів
 # "__iter__" - викликається, коли об'\єкт береться для ітерації типу it = MyIter(18)
 # "__next__" - викликається, коли у циклі "for" відбувається перехід до наступого значення
+# "__contains__" викликається автоматично, кооли об\'єкт містить метод "__iter__"
 
 import random
 
@@ -159,3 +160,18 @@ for row in img:
     for pixel in row:
         print(pixel, sep=' ', end=' ')
     print()
+
+
+class MyIter:
+    def __init__(self, x):
+        self.x = x
+
+    def __iter__(self):
+        return iter(self.x)
+
+    def __contains__(self, item):
+        return item in self.x
+
+
+obj = MyIter([1, 2, 3, 4, 5])
+print(f'\nВиклик м-ду "__contains__" для екземпляру "obj": {[el for el in obj] = }')
