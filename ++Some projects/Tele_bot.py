@@ -1,46 +1,35 @@
 import telebot
+import random
 from telebot.types import Message
 
-print("Lord Michelin is working...")
+print("Bot Melisa is working...")
 
-token = "934747315:AAGULA3JzsOeKUieypa1xKCuZbkUfUkrDHg"
+token = "1959028722:AAFdq4dEWWktBumxkBmdSBvH7EnPpTCcmks"
 bot = telebot.TeleBot(token)
 
-'''@bot.message_handler(content_types=['sticker'])
-def sticker_handler(message: Message):
-    print(message.sticker)
-    print(message.sticker)'''
+names = {
+    0: 'Далбайоб дня @gosha_k8',
+    1: 'Далбайоб дня @po_kaifu_666',
+    2: 'Далбаєбеса дня @oxameln',
+    3: 'Далбайоб дня @tsucini',
+    4: 'Далбайоб дня @chevapchichiu',
+    5: 'Далбайоб дня @momodaisukii',
+    6: 'Далбайоб дня @Саша Глущук',
+    7: 'Далбайоб дня @O͜͡riKAIZEN',
+    8: 'Алкаш дня @september_burns',
+    9: 'Староста дня @Mike_Shevchenko'
+}
 
 
-@bot.message_handler(commands=['try'])
-def parser_tg(message: Message):
-    bot.send_message(message.chat.id, 'You wrote me /try', reply_markup=keyboard1)
-
-
-keyboard1 = telebot.types.ReplyKeyboardMarkup(True, True)
-keyboard1.row('Hi', 'Bye')
-
-
-@bot.message_handler(commands=['start'])  # Виклик по команді "/start "
-@bot.message_handler(content_types=['sticker'])
+@bot.message_handler(commands=['random'])
 def command_handler(message: Message):
-    bot.reply_to(message, "Welcome to the club buddy, " + str(message.from_user.first_name) + '!')
-    bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAIBsV8t1B_namWDA8bL2Udjw9Mdz3UxAALgAANdj6EVOvi2q-rwxQ8aBA')
-    bot.send_message(message.chat.id, 'You wrote me /start', reply_markup=keyboard1)
+    """Вивід далбайобів😉"""
+    result = random.randint(0, len(names) - 1)
+    name = list(names.values())[result]
 
+    response = str(name) + ' 😉' + '\nЗа використання команди не адміном - БАН'
 
-@bot.message_handler(content_types=['text'])  # Виклик по тексту
-@bot.message_handler(content_types=['sticker'])
-@bot.edited_message_handler(content_types=['text'])  # Бот ревгує на редакію повідомлень у ТГ
-def echo_digits(message: Message):
-    if 'Hi' in message.text:  # Бот реагує на текст 'Привіт'
-        bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAIBcV8txcjB7q7Lknl-aQyOGBKE5C4ZAAI5AANdj6EVVJml4_dDVrwaBA')
-        return
-    elif 'Bye' in message.text:
-        bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAIBwV8t1TnhXvhCjt0AARCwXXi4d-SQgQAC2AADXY-hFcYzjXjp9fbJGgQ')
-    else:
-        bot.reply_to(message, "I don't understand you!")
-        bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAIBUV8twyOwqStsVQRWrzuGYxYVtm3bAAI2AANdj6EVOylnZmQBNYYaBA')
+    bot.reply_to(message, response)
 
 
 bot.polling(none_stop=True)
