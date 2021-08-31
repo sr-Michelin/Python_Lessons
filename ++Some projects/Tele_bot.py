@@ -1,5 +1,4 @@
 import datetime
-
 import telebot
 import random
 from telebot.types import Message
@@ -24,31 +23,35 @@ names = {
     11: 'Підарас дня @Taras',
     12: 'Далбайоб дня @gosha_k8',
     13: 'Далбайоб дня @gosha_k8',
-    14: 'Далбайоб дня @gosha_k8'
+    14: 'Далбайоб дня @gosha_k8',
+    15: 'Далбайоб дня @gosha_k8',
+    16: 'Далбайоб дня @gosha_k8',
+    17: 'Далбайоб дня @gosha_k8',
+    18: 'Далбайоб дня @gosha_k8',
+    19: 'Далбайоб дня @gosha_k8',
+    20: 'Далбайоб дня @gosha_k8'
 }
 
 
 @bot.message_handler(commands=['random'])
 def command_handler(message: Message):
-    """Вивід далбайобів😉"""
+    """Вивід далбй@#бів😉"""
+
     result = random.randint(0, len(names) - 1)
 
-    name = list(names.values())[result]
+    response = list(names.values())[result] + ' 😉'
 
-    response = str(name) + ' 😉' + '\nЗа використання команди не адміном - БАН'
-
-    # bot.reply_to(message, response)
-    bot.send_message(message.chat.id, response)
+    if message.from_user.first_name in ['Міша', 'Taras']:
+        bot.send_message(message.chat.id, response)
+    else:
+        bot.send_message(message.chat.id, f'{message.from_user.first_name} не бикуй')
 
     if '/random' in message.text:
         bot.delete_message(message.chat.id, message.message_id)
 
-        with open('tele.txt', 'a+', encoding='UTF-8') as file:
-            file.write(f'"{name}": @{message.from_user.username} at {datetime.datetime.now()}\n')
-
-        if message.from_user.username != 'Mike_Shevchenko':
-            bot.send_message(message.chat.id, f'@{message.from_user.username} не бикуєм!')
+    with open('tele.txt', 'a+', encoding='UTF-8') as file:
+        file.write(f'"{response}": @{message.from_user.username} at {datetime.datetime.now()}\n')
 
 
 if __name__ == '__main__':
-    bot.polling(none_stop=True)
+    bot.polling(none_stop=True, interval=0)
