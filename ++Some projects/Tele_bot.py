@@ -47,7 +47,7 @@ def command_handler(message: Message):
             file.write(f'"{name}": @{message.from_user.username} at {datetime.datetime.now()}\n')
 
         if message.from_user.username != 'Mike_Shevchenko':
-            bot.send_message(message.chat.id, f'{message.from_user.username} не бикуєм!')
+            bot.send_message(message.chat.id, f'@{message.from_user.username} не бикуєм!')
 
 
 if __name__ == '__main__':
