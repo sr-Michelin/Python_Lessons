@@ -122,3 +122,4 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+/+++FOR WORK/DS/L-7 UNSUPERVISED LEARNING/data/
