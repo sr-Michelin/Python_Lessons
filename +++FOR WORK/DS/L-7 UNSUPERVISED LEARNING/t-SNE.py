@@ -18,5 +18,5 @@ for n in np.arange(300, 3100, 100):
                 alpha=0.7, s=20)
     dt = f'{(t - time.time_ns()) / pow(10, 9)} s'
     plt.colorbar(label='digits')
-    plt.savefig(f'data/{n}.jpg')
+    plt.savefig(f'photo/{n}.jpg')
     # plt.show()
