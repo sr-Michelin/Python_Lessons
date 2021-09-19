@@ -83,4 +83,3 @@ for salary in Salaries:
               f"{round(m_hours_p_w, 2)} годин")"""
 
 print(f"N = {len(H)}, {H}")
-
