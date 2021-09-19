@@ -4,7 +4,6 @@ from scipy.spatial.distance import cosine
 
 # Відкриття файла з текстом
 with open('Task_1.txt', 'r') as f_sent:
-    # with open('test.txt', 'r') as f_sent:
     d_sent = list(f_sent)
 
 # Приведення до нижнього регістру
@@ -70,6 +69,7 @@ dist_I_sent_copy.remove(min(dist_I_sent_copy))  # Видалям 0 (перше �
 for i in range(2):
     two_clses_val[i][1] = min(dist_I_sent_copy)  # Знаходимо два найменших значень косинусної відстанні
     print('i-->', two_clses_val[i][1])
+
     for j in range(len(dist_I_sent)):
         if two_clses_val[i][1] == dist_I_sent[j]:  # Вказуєм на номер мінімальних значень
             two_clses_val[i][0] = j

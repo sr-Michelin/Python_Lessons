@@ -1,6 +1,6 @@
 import numpy as np
 from scipy import linalg
-from math import sin, exp, cos
+from math import sin, exp
 import matplotlib.pylab as plt
 
 
