@@ -1,6 +1,3 @@
-print("# Перцептрон")
-print("")
-
 import numpy as np
 
 
