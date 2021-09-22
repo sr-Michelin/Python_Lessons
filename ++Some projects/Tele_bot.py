@@ -41,7 +41,7 @@ def command_handler(message: Message):
 
     response = list(names.values())[result] + ' 😉'
 
-    if message.from_user.first_name in ['Міша', 'Taras']:
+    if message.from_user.first_name in ['Міша', 'Taras', 'Коля']:
         bot.send_message(message.chat.id, response)
     else:
         bot.send_message(message.chat.id, f'{message.from_user.first_name} не бикуй')
