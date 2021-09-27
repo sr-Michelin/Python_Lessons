@@ -20,7 +20,11 @@ def plotting(source: str):
         if '  ' in el[0]:
             data.append([float(n) for n in el[0].split(sep='   ')])
 
-    ind = data.index([data[i + 1] for i in range(len(data) - 1) if data[i][0] - data[i + 1][0] > 5][0])
+    try:
+        ind = data.index([data[i + 1] for i in range(len(data) - 1) if data[i][0] - data[i + 1][0] > 5][0])
+    except IndexError:
+        print('\nДані складаються лиш з одної кривої!\nПропускаю один вектор...')
+        ind = 1
 
     arr1, arr2 = np.array(data[0:ind]), np.array(data[ind:len(data)])
 
@@ -38,10 +42,11 @@ def plotting(source: str):
     plt.xlabel('Photon energy (eV)', fontsize=11)
     plt.ylabel(r'Absorption coefficient $(x10^{5})$', fontsize=11)
 
-    plt.savefig(f'{source[0:-5]}.jpg')
+    plt.savefig(f'{source[0:-4]}.jpg')
     plt.show()
 
 
 if __name__ == '__main__':
     plotting(source='data/ea.CT+.txt')
-    plotting(source='data/23.txt')
+    plotting(source='data/row_DATA.txt')
+    plotting(source='data/safa.txt')
