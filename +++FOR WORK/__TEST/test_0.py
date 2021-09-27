@@ -18,7 +18,8 @@ with sq.connect('data.db') as con:
     # result = cur.fetchmany(2)
 
     # result = cur.fetchone()
-    print(result)
+    # print(result)
 
 
-df = pd.read_sql(sql='SELECT * FROM users WHERE score >= 0', con=sq.connect('data.db'))
+df = pd.read_sql(sql='SELECT * FROM users WHERE score > 0', con=sq.connect('data.db'))
+print(df)
