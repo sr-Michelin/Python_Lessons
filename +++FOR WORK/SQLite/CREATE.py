@@ -18,11 +18,11 @@ with sqlite3.connect('data.db') as con:
 
     # Вивід запиту у консоль
     curs.execute('SELECT DISTINCT * FROM train;')
-    print("DISTINCT: ",curs.fetchall())
+    print("DISTINCT: ", curs.fetchall())
 
     # Агрегування ф-ціями для чиселних колонок
     curs.execute('SELECT avg(id) AS avg_id, avg(course) AS avg_c FROM train')
-    print("Aggregate: ",curs.fetchall())
+    print("Aggregate: ", curs.fetchall())
 
     # Виділення певних строк
     curs.execute('SELECT * FROM train LIMIT 3')
@@ -45,7 +45,11 @@ with sqlite3.connect('data.db') as con:
     # 'a_%' - start with "a" and are at least 2 characters in length
     # 'a%o' - start with "a" and ends with "o"
     curs.execute('SELECT name FROM train WHERE name LIKE "M%h";')
-    print("LIKE: ",curs.fetchall())
+    print("LIKE: ", curs.fetchall())
+
+    # IN Operator - як у Пітоні
+    curs.execute('SELECT * FROM train WHERE name IN ("Mike Sh", "Taras", "Vanya")')
+    print("IN: ", curs.fetchall())
 
     # -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
