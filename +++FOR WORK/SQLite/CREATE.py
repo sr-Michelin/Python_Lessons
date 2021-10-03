@@ -21,10 +21,16 @@ with sqlite3.connect('data.db') as con:
     print(curs.fetchall())
 
     # Агрегування ф-ціями для чиселних колонок
-    curs.execute('SELECT avg(id), avg(course) FROM train')
+    curs.execute('SELECT avg(id) AS avg_id, avg(course) AS avg_c FROM train')
+    print(curs.fetchall())
+
+    # Виділення певних строк
+    curs.execute('SELECT * FROM train LIMIT 3')
+
     print(curs.fetchall())
 
     # SELECT DISTINCT [columns] - вивід унікальних значень таблиці
+
     # WHERE [condition] - умова виводу
     # GROUP BY [column] - групування записів у таблиці (під час виводу)
     # ORDER BY [column] ASC|DESC - сортування за колонкою(-ами) у напрямку зростання чи спадання
@@ -37,5 +43,5 @@ with sqlite3.connect('data.db') as con:
     p = pd.read_sql('SELECT * FROM train ORDER BY course DESC', con=sqlite3.connect('data.db'))
     print('\n', p)
 
-    p = pd.read_sql('SELECT avg(id), avg(course) FROM train', con=sqlite3.connect('data.db'))
+    p = pd.read_sql('SELECT avg(id) AS avg_id, avg(course) AS avg_c FROM train', con=sqlite3.connect('data.db'))
     print('\n', p)
