@@ -20,6 +20,7 @@ with sqlite3.connect('data.db') as con:
     curs.execute('SELECT * FROM train;')
     print(curs.fetchall())
 
+    # SELECT DISTINCT [columns] - вивід унікальних значень таблиці
     # WHERE [condition] - умова виводу
     # GROUP BY [column] - групування записів у таблиці (під час виводу)
     # ORDER BY [column] ASC|DESC - сортування за колонкою(-ами) у напрямку зростання чи спадання
