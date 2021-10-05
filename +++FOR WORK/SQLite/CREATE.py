@@ -119,6 +119,18 @@ with sqlite3.connect('data.db') as con:
     # У AUTOINCREMENT ключовому слові нав'язує додатковий процесор, пам'ять, дисковий простір,
     # і диск I / O накладних витрат і слід уникати , а то й суворо необхідно.
 
+    # CASE - оператор умови (виводиться окремою колонкою)
+    C = 'SELECT train.name, train.course, ' \
+        'CASE ' \
+        'WHEN train.course >=5 THEN 1 '\
+        'ELSE 0 '\
+        'END AS "IS_MAG?" '\
+        'FROM train '\
+        'ORDER BY course DESC'
+
+    curs.execute(C)
+    print('CASE: ', curs.fetchall())
+
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
     print('\n', pd.read_sql('SELECT * FROM train ORDER BY course DESC', con=con))
@@ -130,3 +142,5 @@ with sqlite3.connect('data.db') as con:
 
     print('\n', pd.read_sql(sql='SELECT COUNT(*) FROM train as CNT_tr UNION SELECT COUNT(*) FROM ssh as CNT_ssh',
                             con=con))
+
+    print('\n', pd.read_sql(sql=C, con=con))
