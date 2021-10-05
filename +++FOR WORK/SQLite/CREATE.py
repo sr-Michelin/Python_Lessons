@@ -89,6 +89,9 @@ with sqlite3.connect('data.db') as con:
     curs.execute('SELECT * FROM ssh_new')
     print('SELECT INTO:', curs.fetchall())
 
+    # CREATE PROCEDURE - сторення процедур (інструкцій для виконання). Теж не для SQLite3.
+    # curs.execute('CREATE PROCEDURE p AS [SELECT * FROM train] GO;')
+
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
     print('\n', pd.read_sql('SELECT * FROM train ORDER BY course DESC', con=con))
