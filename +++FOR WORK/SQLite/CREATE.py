@@ -12,11 +12,11 @@ with sqlite3.connect('data.db') as con:
 
     # Створення таблиці ssh(стипендій)
     curs.execute('CREATE TABLE IF NOT EXISTS ssh('
-                 'id INT AUTO INCREMENT PRIMARY KEY,'
+                 'id INT PRIMARY KEY AUTOINCREMENT,'
                  'sh INT NOT NULL);')
 
     curs.execute('CREATE TABLE IF NOT EXISTS ssh_new('
-                 'id INT AUTO INCREMENT PRIMARY KEY,'
+                 'id INT PRIMARY KEY AUTOINCREMENT,'
                  'sh INT NOT NULL);')
 
     # Введення даних
@@ -92,7 +92,32 @@ with sqlite3.connect('data.db') as con:
     # CREATE PROCEDURE - сторення процедур (інструкцій для виконання). Теж не для SQLite3.
     # curs.execute('CREATE PROCEDURE p AS [SELECT * FROM train] GO;')
 
-    # КОМЕНТАР "--SELECT ALL" - тут все ясно та очевидно =)
+    # КОМЕНТАР "--SELECT ALL", /*SELECT ALL*/ - тут все ясно та очевидно =)
+
+    # CREATE/DROP DATABASE [name] - теж ясно
+
+    # TRUNCATE TABLE [table_name] - видалення усіх записів (без колнок). Не для SQLite3
+
+    # ALTER TABLE використовується для додавання, видалення або зміни стовпців в існуючій таблиці
+    # curs.execute('ALTER TABLE [table_name] ADD [column_name] datatype;') - додавання колонок
+    # curs.execute('ALTER TABLE [table_name] DROP [column_name];') - видалення колонок
+    # curs.execute('ALTER TABLE [table_name] MODIFY COLUMN [column_name] datatype;')-зміна типу колонки. Не для SQLite3
+    # curs.execute('ALTER TABLE [table_name] ADD PRIMARY KEY (id);') - додавання унікального ключа до т-ці
+
+    # constraint - обмеження даних при створенні/зміні таблиці
+    # # NOT NULL - Гарантує, що стовпець не може мати нульовезначення
+    # # INDEX - Використовується для створення і отримання даних з бази даних дуже швидко
+    # # DEFAULT - Задає значення за замовчуванням для стовпця, якщо значення не вказано
+    # # PRIMARY KEY - Комбінація ненульового і унікального. Однозначно ідентифікує кожен рядок в таблиці
+    # # UNIQUE - Гарантує, що всі значення в стовпці розрізняються
+
+    # CREATE INDEX - для прискорення пошуку
+    # CREATE INDEX index_name ON [table_name] (column1, column2, ...);
+    # CREATE UNIQUE INDEX index_name ON [table_name] (column1, column2, ...); - без повторень
+
+    # rowid - поле для SQLite3, що вказує на номер рядка
+    # У AUTOINCREMENT ключовому слові нав'язує додатковий процесор, пам'ять, дисковий простір,
+    # і диск I / O накладних витрат і слід уникати , а то й суворо необхідно.
 
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
