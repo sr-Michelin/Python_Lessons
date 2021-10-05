@@ -51,6 +51,7 @@ with sqlite3.connect('data.db') as con:
     curs.execute('SELECT * FROM train WHERE name IN ("Mike Sh", "Taras", "Vanya")')
     print("IN: ", curs.fetchall())
 
+
     # -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
     p = pd.read_sql('SELECT * FROM train ORDER BY course DESC', con=sqlite3.connect('data.db'))

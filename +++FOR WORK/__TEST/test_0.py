@@ -1,32 +1,32 @@
-import sqlite3 as sq
+import sqlite3
 import pandas as pd
 
-with sq.connect('data.db') as con:
-    cur = con.cursor()
+with sqlite3.connect('interview.db') as con:
+    cursor = con.cursor()
 
-    '''cur.execute("""CREATE TABLE if not exists users(
-    name TEXT,
-    sex INT,
-    age INT,
-    score INT)""")'''
+    # Дублікати
 
-    # cur.execute("""INSERT INTO users(name, sex, age, score) VALUES("Mike Shevchenko", "Male", 23, 1770)""")
-    # cur.execute("""SELECT DISTINCT * FROM users""")
+    cursor.execute("""CREATE TABLE IF NOT EXISTS train(
+    id INT AUTO INCREMENT PRIMARY KEY,
+    name TEXT, 
+    age INT CHECK(age >= 18),
+    salary INT DEFAULT 5000);""")
 
-    # cur.execute("""SELECT * FROM users""")
-    # result = cur.fetchall()
-    # result = cur.fetchmany(2)
-    # result = cur.fetchone()
+    # cursor.execute("""DELETE FROM train""")
+    # cursor.execute("""DROP TABLE train""")
 
-    # print(result)
+    # cursor.execute("""INSERT INTO train(id ,name, age, salary)
+    # VALUES (1, 'David', 45, 25000), (2,'Mike', 22, 5000)""")
 
-df = pd.read_sql(sql='SELECT * FROM users WHERE score > 0', con=sq.connect('data.db'))
-# df.drop_duplicates(inplace=True)
+    # cursor.execute("""DELETE FROM train WHERE id IS null""")
 
-for i in range(len(df) - 1):
-    if df.name[i] == df.name[i+1]:
-        df.drop(index=i, inplace=True)
-    else:
-        df.index[i] = 0
+    cursor.execute("""SELECT name, count(*) AS CNT
+    FROM train 
+    GROUP BY name, age, salary
+    HAVING CNT > 1;""")
 
-print('\n', df)
+    print(cursor.fetchall())
+
+    cursor.execute("""DELETE FROM train WHERE id NOT IN (SELECT MIN(id) FROM train GROUP BY name, age, salary)""")
+
+print('\n', pd.read_sql("""SELECT * FROM train""", con=sqlite3.connect('interview.db')))
