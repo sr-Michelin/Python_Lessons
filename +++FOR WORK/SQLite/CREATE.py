@@ -122,14 +122,22 @@ with sqlite3.connect('data.db') as con:
     # CASE - оператор умови (виводиться окремою колонкою)
     C = 'SELECT train.name, train.course, ' \
         'CASE ' \
-        'WHEN train.course >=5 THEN 1 '\
-        'ELSE 0 '\
-        'END AS "IS_MAG?" '\
-        'FROM train '\
+        'WHEN train.course >=5 THEN 1 ' \
+        'ELSE 0 ' \
+        'END AS "IS_MAG?" ' \
+        'FROM train ' \
         'ORDER BY course DESC'
 
     curs.execute(C)
     print('CASE: ', curs.fetchall())
+
+    # Оператори заміни
+    # # REPLACE - строкова проста заміна
+    curs.execute('SELECT REPLACE ("ABCA", "A", 1)')
+    print('REPLACE: ', curs.fetchall())
+    # # CAST(expression-AS-type_name) - заміна типу подачі даних колонки
+    curs.execute("SELECT CAST('10.100,1223' AS DECIMAL(10,3))")
+    print('CAST: ', curs.fetchall())
 
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
@@ -138,9 +146,9 @@ with sqlite3.connect('data.db') as con:
     print('\n', pd.read_sql('SELECT COUNT(id) AS count, avg(id) AS avg_id, avg(course) AS avg_c FROM train', con=con))
 
     print('\n', pd.read_sql(sql='SELECT train.name, train.course, ssh.sh FROM train INNER JOIN ssh ON train.id=ssh.id',
-                            con=con))
+                            con=con).describe().T)
 
     print('\n', pd.read_sql(sql='SELECT COUNT(*) FROM train as CNT_tr UNION SELECT COUNT(*) FROM ssh as CNT_ssh',
                             con=con))
 
-    print('\n', pd.read_sql(sql=C, con=con))
+    print('\n', pd.read_sql(sql=C, con=con).T)
