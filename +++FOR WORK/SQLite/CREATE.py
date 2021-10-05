@@ -92,6 +92,8 @@ with sqlite3.connect('data.db') as con:
     # CREATE PROCEDURE - сторення процедур (інструкцій для виконання). Теж не для SQLite3.
     # curs.execute('CREATE PROCEDURE p AS [SELECT * FROM train] GO;')
 
+    # КОМЕНТАР "--SELECT ALL" - тут все ясно та очевидно =)
+
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
     print('\n', pd.read_sql('SELECT * FROM train ORDER BY course DESC', con=con))
