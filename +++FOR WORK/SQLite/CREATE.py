@@ -15,6 +15,10 @@ with sqlite3.connect('data.db') as con:
                  'id INT AUTO INCREMENT PRIMARY KEY,'
                  'sh INT NOT NULL);')
 
+    curs.execute('CREATE TABLE IF NOT EXISTS ssh_new('
+                 'id INT AUTO INCREMENT PRIMARY KEY,'
+                 'sh INT NOT NULL);')
+
     # Введення даних
     # curs.execute('INSERT INTO train(id, name, course) VALUES(9, "Kata", 5)')
     # curs.execute('INSERT INTO ssh(id, sh) VALUES(1, 1770), (2, 1770), (3, 0), (4, 0), (5,0), (6, 0), (7, 0)')
@@ -74,6 +78,16 @@ with sqlite3.connect('data.db') as con:
     # UNION - оператор поєднання вибірок
     curs.execute('SELECT COUNT(*) FROM train as CNT_tr UNION SELECT COUNT(*) FROM ssh as CNT_ssh')
     print('UNION:', curs.fetchall())
+
+    # WHERE EXIST - поаертає True якщо вкладений запит повертає один і більше записів
+    curs.execute('SELECT * FROM train WHERE EXISTS (SELECT * FROM ssh)')
+    print('EXIST:', curs.fetchall())
+
+    # SELECT INTO - копіювання даних із таблиці в іншу. Не працює у SQLite
+    # curs.execute('SELECT * INTO ssh_new FROM ssh')
+    # curs.execute('INSERT INTO ssh_new SELECT * FROM ssh')
+    curs.execute('SELECT * FROM ssh_new')
+    print('SELECT INTO:', curs.fetchall())
 
     #   -----------------------------------------------------------------------------------------------------------------
     # Вивід через бібліотеку Pandas
