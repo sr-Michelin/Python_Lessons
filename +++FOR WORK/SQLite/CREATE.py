@@ -4,6 +4,8 @@ import pandas as pd
 with sqlite3.connect('data.db') as con:
     curs = con.cursor()
 
+    # con.commit() # для зміни у БД
+
     # Створення таблиці
     curs.execute('CREATE TABLE IF NOT EXISTS train('
                  'id INT PRIMARY KEY AUTOINCREMENT,'
@@ -46,6 +48,7 @@ with sqlite3.connect('data.db') as con:
 
     # Оновлення існуючих записів у таблиці з первною умовою (без неї усі записи стануть одинаковими)
     curs.execute('UPDATE train SET name = "Mike Sh" WHERE name = "Mike"')
+    # con.commit() # для зміни у БД
 
     # LIKE Operator - пошук спеціальних символів та їх косбінацій у текстах колонок
     # 'a%' - start with "a"
