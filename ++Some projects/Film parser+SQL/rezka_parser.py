@@ -1,12 +1,22 @@
-from bs4 import BeautifulSoup
-import requests
-import sqlite3
 import re
+import os
+import sqlite3
+import requests
+from bs4 import BeautifulSoup
 
 
-def parse(depth=int(input('Виберіть глибину пошуку: ')), find=input('Виберіть категорію із [best, fiction, ...]: ')):
-    page = 1
+def convert_to_binary(filename):
+    # Фото у бінарки
+    with open(filename, 'rb') as file:
+        blobDATA = file.read()
+    return blobDATA
 
+
+# depth = int(input('Виберіть глибину пошуку: '))
+# find = input('Виберіть категорію із [best, fiction, ...]: ')
+
+
+def parse(page=1, depth=1, find='fiction'):
     # Проміжний результат (у майбутньому треба позбутися)
     result = []
 
@@ -32,67 +42,78 @@ def parse(depth=int(input('Виберіть глибину пошуку: ')), fi
         if page <= depth:
             if len(films):
                 for film, mark in zip(films, marks):
-                    # Блок первинних даних
-                    f = film.text.strip()
-
-                    if find == "best":
-                        m = re.split(pattern='[^0-9,.]',
-                                     string=mark.find('i',
-                                                      class_="b-category-bestrating rating-green-string").get_text(
-                                         strip=1))[1]
-                    else:
-                        m = None
-
                     # Блок кінцевих даних
-                    name = f.split(',')[0][0:-5]
-                    year = [_ for _ in re.split(pattern='[^0-9]', string=f) if len(_) > 3][0]
-                    country = f.split(',')[1].strip()
-                    genre = f.split(',')[2].strip()
+                    title = film.find('a').text.strip()
+                    year = film.find('div').text.split(', ')[0]
+                    country = film.find('div').text.split(', ')[1]
+                    genre = film.find('div').text.split(', ')[2]
+                    link = film.find('a').get('href')
+                    rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2] if find == 'best' else None
 
-                    result.append([name, year, country, genre, m])
+                    # Медіа файли
+                    photo_src = mark.find('img').get('src')
+                    img_data = requests.get(photo_src, verify=True).content
+                    photo_name = re.sub('[^A-Za-zА-Яа-я,^0-9.+]', '', title) + '.jpg'
+
+                    with open('thumbnails/' + photo_name, 'wb') as handler:
+                        handler.write(img_data)
+
+                    result.append(
+                        [title, year, country, genre, rate, link, convert_to_binary('thumbnails/' + photo_name)])
 
                 page += 1
             else:
-                print(f'\nПереглянуті усі фільми категорії {find}')
+                print(f'\nПереглянуті усі фільми категорії https://rezka.ag/films/{find}')
 
         else:
-            print(f'Переглянуті вибрані фільми категорії {find}')
+            print(f'Переглянуті вибрані фільми категорії https://rezka.ag/films/{find}')
             break
 
     return result
 
 
-"""Запис у БД SQLite"""
-try:
-    with sqlite3.connect('rezka.db') as con:
-        print('\nDatabase connected...')
-        cursor = con.cursor()
+def sql():
+    """Запис у БД SQLite"""
 
-        # Створення БД
-        cursor.execute("""CREATE TABLE IF NOT EXISTS {}(
-        name VARCHAR(50),
-        year INT,
-        country VARCHAR(50),
-        genre VARCHAR(50),
-        mark FLOAT,
-        Unique(name));""".format(parse.__defaults__[1]))
+    if not os.path.exists('thumbnails'):
+        os.makedirs('thumbnails')
 
-        # Огляд наявних записів у БД
-        cursor.execute("""SELECT * FROM {}""".format(parse.__defaults__[1]))
+    try:
+        with sqlite3.connect('rezka.db') as con:
+            print('\nDatabase connected...')
+            cursor = con.cursor()
 
-        Q = cursor.fetchall()
-        q = [Q[i][0] for i in range(len(Q))]
+            # Створення БД
+            cursor.execute("""CREATE TABLE IF NOT EXISTS {}(
+            title VARCHAR(50),
+            year INT,
+            country VARCHAR(50),
+            genre VARCHAR(50),
+            rate FLOAT,
+            link VARCHAR(100),
+            photo BLOB,
+            Unique(title));""".format(parse.__defaults__[2]))
 
-        # Перевірка присутності майбутніх записів у списку існюючих
-        for item in parse():
-            if not item[0] in q:
-                cursor.execute("""INSERT INTO {} VALUES (?,?,?,?,?)""".format(parse.__defaults__[1]), item)
-                con.commit()
+            # Огляд наявних записів у БД
+            cursor.execute("""SELECT * FROM {}""".format(parse.__defaults__[2]))
+
+            Q = cursor.fetchall()
+            q = [Q[i][0] for i in range(len(Q))]
+
+            # Перевірка присутності майбутніх записів у списку існюючих
+            for item in parse():
+                if not item[0] in q:
+                    cursor.execute("""INSERT INTO {} VALUES (?,?,?,?,?,?,?)""".format(parse.__defaults__[2]), item)
+                    con.commit()
+
+    except Exception as ex:
+        print(ex)
+
+    finally:
+        print('Connection closed...')
+        con.close()
 
 
-except Exception as ex:
-    print(ex)
-
-finally:
-    print('Connection closed...')
-    con.close()
+if __name__ == '__main__':
+    # parse()
+    sql()
