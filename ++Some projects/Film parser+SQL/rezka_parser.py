@@ -88,7 +88,7 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
                 print(f'\nПереглянуті усі фільми категорії https://rezka.ag/films/{genre}')
 
         else:
-            print(f'Переглянуті вибрані фільми категорії https://rezka.ag/films/{genre}')
+            print(f'Переглянуті вибрані фільми ({len(result)}) категорії https://rezka.ag/films/{genre}')
             break
 
     return result
@@ -129,6 +129,9 @@ def sql(genre_='best', depth_=1):
                     cursor.execute("""INSERT INTO {} VALUES (?,?,?,?,?,?,?)""".format(parse.__defaults__[2]), item)
                     con.commit()
 
+            cursor.execute("""SELECT * FROM {}""".format(parse.__defaults__[2]))
+            print(f'Записано {len(cursor.fetchall())-len(Q)} фільмів')
+
     except Exception as ex:
         print(ex)
 
@@ -138,4 +141,4 @@ def sql(genre_='best', depth_=1):
 
 
 if __name__ == '__main__':
-    sql(depth_=10)
+    sql(genre_='best', depth_=20)
