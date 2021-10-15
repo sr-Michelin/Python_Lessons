@@ -4,6 +4,24 @@ import sqlite3
 import requests
 from bs4 import BeautifulSoup
 
+genre_dict = {
+    1: 'western',
+    2: 'crime',
+    3: 'fiction',
+    4: 'horror',
+    5: 'family',
+    6: 'action',
+    7: 'adventures',
+    8: 'comedy',
+    9: 'fantasy',
+    10: 'military',
+    11: 'drama',
+    12: 'historical',
+    13: 'travel',
+    14: 'detective',
+    15: 'thriller'
+}
+
 
 def convert_to_binary(filename):
     # Фото у бінарки
@@ -16,14 +34,14 @@ def convert_to_binary(filename):
 # find = input('Виберіть категорію із [best, fiction, ...]: ')
 
 
-def parse(page=1, depth=1, find='fiction'):
+def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
     # Проміжний результат (у майбутньому треба позбутися)
     result = []
 
     while True:
 
         # Ключове посилання
-        url = f"https://rezka.ag/films/{find}/page/{page}/"
+        url = f"https://rezka.ag/films/{genre}/page/{page}/{filter_}"
 
         # Клієнт
         HEADERS = {
@@ -46,9 +64,9 @@ def parse(page=1, depth=1, find='fiction'):
                     title = film.find('a').text.strip()
                     year = film.find('div').text.split(', ')[0]
                     country = film.find('div').text.split(', ')[1]
-                    genre = film.find('div').text.split(', ')[2]
+                    genre_ = film.find('div').text.split(', ')[2]
                     link = film.find('a').get('href')
-                    rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2] if find == 'best' else None
+                    rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2] if genre == 'best' else None
 
                     # Медіа файли
                     photo_src = mark.find('img').get('src')
@@ -59,22 +77,27 @@ def parse(page=1, depth=1, find='fiction'):
                         handler.write(img_data)
 
                     result.append(
-                        [title, year, country, genre, rate, link, convert_to_binary('thumbnails/' + photo_name)])
+                        [title, year, country, genre_, rate, link, convert_to_binary('thumbnails/' + photo_name)])
+
+                    # Очищення thumbnails - тимчасової директорії
+                    for f in os.listdir('thumbnails'):
+                        os.remove(os.path.join('thumbnails', f))
 
                 page += 1
             else:
-                print(f'\nПереглянуті усі фільми категорії https://rezka.ag/films/{find}')
+                print(f'\nПереглянуті усі фільми категорії https://rezka.ag/films/{genre}')
 
         else:
-            print(f'Переглянуті вибрані фільми категорії https://rezka.ag/films/{find}')
+            print(f'Переглянуті вибрані фільми категорії https://rezka.ag/films/{genre}')
             break
 
     return result
 
 
-def sql():
+def sql(genre_='best', depth_=1):
     """Запис у БД SQLite"""
 
+    # Створення тимчасової директорії для бінаризації фото та збереження їх у БД
     if not os.path.exists('thumbnails'):
         os.makedirs('thumbnails')
 
@@ -101,7 +124,7 @@ def sql():
             q = [Q[i][0] for i in range(len(Q))]
 
             # Перевірка присутності майбутніх записів у списку існюючих
-            for item in parse():
+            for item in parse(genre=genre_, depth=depth_):
                 if not item[0] in q:
                     cursor.execute("""INSERT INTO {} VALUES (?,?,?,?,?,?,?)""".format(parse.__defaults__[2]), item)
                     con.commit()
@@ -115,5 +138,4 @@ def sql():
 
 
 if __name__ == '__main__':
-    # parse()
-    sql()
+    sql(depth_=10)
