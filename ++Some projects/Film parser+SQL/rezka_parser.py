@@ -4,35 +4,6 @@ import sqlite3
 import requests
 from bs4 import BeautifulSoup
 
-genre_dict = {
-    1: 'western',
-    2: 'crime',
-    3: 'fiction',
-    4: 'horror',
-    5: 'family',
-    6: 'action',
-    7: 'adventures',
-    8: 'comedy',
-    9: 'fantasy',
-    10: 'military',
-    11: 'drama',
-    12: 'historical',
-    13: 'travel',
-    14: 'detective',
-    15: 'thriller'
-}
-
-
-def convert_to_binary(filename):
-    # Фото у бінарки
-    with open(filename, 'rb') as file:
-        blobDATA = file.read()
-    return blobDATA
-
-
-# depth = int(input('Виберіть глибину пошуку: '))
-# find = input('Виберіть категорію із [best, fiction, ...]: ')
-
 
 def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
     # Проміжний результат (у майбутньому треба позбутися)
@@ -68,20 +39,7 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
                     link = film.find('a').get('href')
                     rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2] if genre == 'best' else None
 
-                    # Медіа файли
-                    photo_src = mark.find('img').get('src')
-                    img_data = requests.get(photo_src, verify=True).content
-                    photo_name = re.sub('[^A-Za-zА-Яа-я,^0-9.+]', '', title) + '.jpg'
-
-                    with open('thumbnails/' + photo_name, 'wb') as handler:
-                        handler.write(img_data)
-
-                    result.append(
-                        [title, year, country, genre_, rate, link, convert_to_binary('thumbnails/' + photo_name)])
-
-                    # Очищення thumbnails - тимчасової директорії
-                    for f in os.listdir('thumbnails'):
-                        os.remove(os.path.join('thumbnails', f))
+                    result.append([title, year, country, genre_, rate, link])
 
                 page += 1
             else:
@@ -107,18 +65,17 @@ def sql(genre_='best', depth_=1):
             cursor = con.cursor()
 
             # Створення БД
-            cursor.execute("""CREATE TABLE IF NOT EXISTS {}(
+            cursor.execute("""CREATE TABLE IF NOT EXISTS best(
             title VARCHAR(50),
             year INT,
             country VARCHAR(50),
             genre VARCHAR(50),
             rate FLOAT,
             link VARCHAR(100),
-            photo BLOB,
-            Unique(title));""".format(parse.__defaults__[2]))
+            Unique(title));""")
 
             # Огляд наявних записів у БД
-            cursor.execute("""SELECT * FROM {}""".format(parse.__defaults__[2]))
+            cursor.execute("""SELECT * FROM best""")
 
             Q = cursor.fetchall()
             q = [Q[i][0] for i in range(len(Q))]
@@ -126,11 +83,13 @@ def sql(genre_='best', depth_=1):
             # Перевірка присутності майбутніх записів у списку існюючих
             for item in parse(genre=genre_, depth=depth_):
                 if not item[0] in q:
-                    cursor.execute("""INSERT INTO {} VALUES (?,?,?,?,?,?,?)""".format(parse.__defaults__[2]), item)
+                    cursor.execute("""INSERT INTO best VALUES (?,?,?,?,?,?)""", item)
                     con.commit()
 
-            cursor.execute("""SELECT * FROM {}""".format(parse.__defaults__[2]))
-            print(f'Записано {len(cursor.fetchall())-len(Q)} фільмів')
+            cursor.execute("""SELECT * FROM best""")
+            Q2 = cursor.fetchall()
+            # print(f'Записано {len(Q2) - len(Q)} фільмів')
+            return f'Записано {len(Q2) - len(Q)} нових фільмів із {depth_} (-и) сторінок'
 
     except Exception as ex:
         print(ex)
@@ -141,4 +100,6 @@ def sql(genre_='best', depth_=1):
 
 
 if __name__ == '__main__':
-    sql(genre_='best', depth_=20)
+    print(sql())
+else:
+    print('Module rezka_parser.py is connected...')
