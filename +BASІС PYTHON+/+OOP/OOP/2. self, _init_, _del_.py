@@ -46,5 +46,5 @@ class Point:
 
 
 pt = Point()  # вміст дужок не є необхідним, по початкові дані означені у __init__()
-# pt_ = Point(5, 4)
+pt_ = Point(5, 4)
 input()

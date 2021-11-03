@@ -14,9 +14,6 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
         url = f"https://rezka.ag/films/{genre}/page/{page}/{filter_}"
 
         # Клієнт
-        HEADERS = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                          'Chrome/83.0.4103.116 Safari/537.36 OPR/69.0.3686.95'}
 
         HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 '
                                  '(KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}

@@ -20,7 +20,7 @@ class Person:
     def __init__(self, name):
         self.name = name
 
-    def say_hi(self):
+    def say_hi(і):
         print('Hello', self.name, '!')
 
 

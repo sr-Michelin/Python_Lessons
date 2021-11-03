@@ -25,7 +25,7 @@ def command_handler(message: Message):
 @bot.message_handler(commands=['get_new'])
 def command_handler(message: Message):
     bot.send_message(message.chat.id, f'Поповнення бази фільмів...')
-    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=1)}')
+    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=10)}')
 
 
 @bot.message_handler(commands=['random'])
@@ -66,7 +66,8 @@ def command_handler(message):
                 # film_left = f'Залишилося фільмів жанру "{message.text}" - {len(film_list) - 1} шт'
                 # bot.send_message(message.chat.id, film_left)
                 # print(film_left)
-                print(f'{message.from_user.id}, {message.from_user.username}, "{r_f[3]}", "{r_f[0]}"')
+                print(
+                    f'{message.from_user.id}, {message.from_user.first_name}, {message.from_user.username}, "{r_f[3]}", "{r_f[0]}"')
 
             else:
                 bot.send_sticker(message.chat.id,
@@ -84,7 +85,7 @@ def command_handler(message):
         bot.send_sticker(message.chat.id,
                          "CAACAgIAAxkBAAEDGYRhawziXGhJxyhpEyjOy5-5_2O2sQACDgEAArSASiTg4WrIqh1AMCEE")
         bot.send_message(message.chat.id, f'"{message.text}" - невідома команда')
-        print(f'{message.from_user.id}, {message.from_user.username}, "{message.text}"')
+        print(f'{message.from_user.id}, {message.from_user.first_name}, {message.from_user.username}, "{message.text}"')
 
 
 if __name__ == '__main__':
