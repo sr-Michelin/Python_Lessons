@@ -36,7 +36,7 @@ def gravity(beta: float, v: float, const=1.5):
 def planets(save: bool, vis: bool):
     for p, v in V.items():
         vf_v = [gravity(beta, v) for beta in betas]
-        plt.plot(betas, vf_v, label=f'{p}', marker='*', markersize=2.5, linewidth=1)
+        plt.plot(betas, vf_v, label=f'{p}', marker='D', markersize=2.5, linewidth=1)
 
         beta_v_max = betas[vf_v.index(max(vf_v))]
         plt.vlines(beta_v_max, 0, 100, linestyles='--', colors='black', alpha=0.05)
@@ -54,7 +54,7 @@ def planets(save: bool, vis: bool):
         plt.ylabel(r'$vf(β), km/s$')
 
     if save is True:
-        plt.savefig(f"graphs/g_m/K-1.pdf", format='pdf', dpi=200)
+        plt.savefig(f"graphs/g_m/K-1.pdf", format='pdf', dpi=2000)
     if vis is True:
         plt.show()
 
