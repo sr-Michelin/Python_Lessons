@@ -38,7 +38,11 @@ def planets(save: bool, vis: bool):
         vf_v = [gravity(beta, v) for beta in betas]
         plt.plot(betas, vf_v, label=f'{p}', marker='*', markersize=2.5, linewidth=1)
 
-        plt.title(r'Vf(β) for planets of Solar system', fontsize=10)
+        beta_v_max = betas[vf_v.index(max(vf_v))]
+        plt.vlines(beta_v_max, 0, 100, linestyles='--', colors='black', alpha=0.05)
+
+        plt.title(r'Vf(β) for planets of Solar system'+
+                  f'\nVf(β)->max: β-α={round((beta_v_max-alpha)*180/pi)}°', fontsize=10)
 
         plt.xlim([-1.7, 4.58])
         plt.ylim([0, 100])
