@@ -38,17 +38,17 @@ def visualisation(save: bool, vis: bool):
     plt.xlabel(r'$t^*$')
     plt.ylabel(r'$v(t^*)$')
 
-    # plt.xticks(np.linspace(0, 2 * pi, 5), ['0', 'π/2', 'π', '3π/2', '2π'])
-    # plt.yticks(np.linspace(0, 2 * pi, 5), ['0', 'π/2', 'π', '3π/2', '2π'])
+    plt.xticks(np.linspace(0, 2 * pi, 5), ['0', 'π/2', 'π', '3π/2', '2π'])
+    plt.yticks(np.linspace(0, 2 * pi, 5), ['0', 'π/2', 'π', '3π/2', '2π'])
 
     plt.grid(linestyle=':')
     plt.legend(loc=4, fontsize=8)
 
     if save is True:
-        plt.savefig("☺.pdf", format='pdf', dpi=2000)
+        plt.savefig("graphs/v_t/☺.pdf", format='pdf', dpi=2000)
     if vis is True:
         plt.show()
 
 
 if __name__ == '__main__':
-    visualisation(save=False, vis=True)
+    visualisation(save=True, vis=False)

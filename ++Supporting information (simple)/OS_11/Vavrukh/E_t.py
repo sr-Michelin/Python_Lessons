@@ -45,12 +45,10 @@ def visualization(vis: bool, save: bool):
         plt.grid(linestyle=':')
         plt.legend(loc=4, fontsize=8)
 
-        plt.savefig(f'graphs/{e}.jpg')
-
         if vis is True:
             plt.show()
         if save is True:
-            plt.savefig(f'graphs/{e}.jpg', dpi=100)
+            plt.savefig(f'graphs/e_t/{e}.jpg', dpi=100)
 
 
 if __name__ == '__main__':
