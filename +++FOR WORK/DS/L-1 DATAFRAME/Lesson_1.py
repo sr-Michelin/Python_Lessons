@@ -1,7 +1,5 @@
-# Pandas library
-import numpy as np
 import pandas as pd
-import time
+
 
 P = pd.read_csv('adult.data', sep=',')
 print(P.columns)
