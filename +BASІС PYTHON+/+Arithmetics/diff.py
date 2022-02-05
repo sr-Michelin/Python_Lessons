@@ -1,4 +1,4 @@
-from sympy import sqrt, integrate, symbols, pi, diff
+from sympy import sqrt, integrate, symbols, pi, diff, exp, Piecewise, acosh, asin, Abs
 
 t = symbols('t')
 f = 2 ** t

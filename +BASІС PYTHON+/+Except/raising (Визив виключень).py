@@ -1,6 +1,7 @@
 class ShortInputException(Exception):
     def __init__(self, length, atleast):
-        Exception.__init__(self)
+        # Exception.__init__(self)
+        super().__init__(self)
         self.length = length
         self.atleast = atleast
 

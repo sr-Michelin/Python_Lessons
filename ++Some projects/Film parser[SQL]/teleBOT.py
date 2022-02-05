@@ -6,7 +6,7 @@ from telebot.types import Message, ReplyKeyboardMarkup
 
 print("Bot RandomFilm is working...")
 
-token = "2071046556:AAHfW3e-nFgvqmgEBsGHkgvrR6y24pDFPZc"
+token = "5125749857:AAHEke78LY_bemWLUgGSYxZ1yP2o3j6iwn8"
 bot = telebot.TeleBot(token)
 
 genre_list = ['Драмы', 'Биографические', 'Приключения', 'Военные', 'Криминал', 'Боевики', 'Фантастика', 'Детективы',
@@ -25,7 +25,7 @@ def command_handler(message: Message):
 @bot.message_handler(commands=['get_new'])
 def command_handler(message: Message):
     bot.send_message(message.chat.id, f'Поповнення бази фільмів...')
-    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=10)}')
+    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=5)}')
 
 
 @bot.message_handler(commands=['random'])

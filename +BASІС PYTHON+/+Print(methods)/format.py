@@ -1,4 +1,4 @@
-age = 22
+age = 23
 name = 'Mike'
 
 print('Я {0}, і мені {1} роки'.format(name, age))

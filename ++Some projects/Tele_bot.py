@@ -5,9 +5,8 @@ from telebot.types import Message
 
 print("Bot Melisa is working...")
 
-token = "1959028722:AAFdq4dEWWktBumxkBmdSBvH7EnPpTCcmks"
+token = "5125749857:AAHEke78LY_bemWLUgGSYxZ1yP2o3j6iwn8"
 bot = telebot.TeleBot(token)
-
 names = {
     0: 'Далбайоб дня @gosha_k8',
     1: 'Далбайоб дня @po_kaifu_666',
