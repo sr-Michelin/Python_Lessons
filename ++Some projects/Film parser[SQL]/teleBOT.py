@@ -3,10 +3,11 @@ import sqlite3
 import telebot
 from rezka_parser import sql
 from telebot.types import Message, ReplyKeyboardMarkup
+import Config
 
 print("Bot RandomFilm is working...")
 
-token = "5125749857:AAHEke78LY_bemWLUgGSYxZ1yP2o3j6iwn8"
+token = Config.token
 bot = telebot.TeleBot(token)
 
 genre_list = ['Драмы', 'Биографические', 'Приключения', 'Военные', 'Криминал', 'Боевики', 'Фантастика', 'Детективы',
