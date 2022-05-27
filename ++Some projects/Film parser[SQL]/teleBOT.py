@@ -1,17 +1,18 @@
+# http://t.me/MS_film_bot
+
 import random
 import sqlite3
 import telebot
 from rezka_parser import sql
 from telebot.types import Message, ReplyKeyboardMarkup
-import Config
+import config
 
 print("Bot RandomFilm is working...")
 
-token = Config.token
+token = config.token
 bot = telebot.TeleBot(token)
 
-genre_list = ['Драмы', 'Биографические', 'Приключения', 'Военные', 'Криминал', 'Боевики', 'Фантастика', 'Детективы',
-              'Комедии', 'Триллеры', 'Мелодрамы', 'Фэнтези', 'Семейные', 'Вестерны', 'Исторические', 'Ужасы']
+genre_list = config.genre_list
 
 
 @bot.message_handler(commands=['start'])
@@ -61,12 +62,6 @@ def command_handler(message):
 
                 bot.send_message(message.chat.id, random_name)
 
-                # c.execute('DELETE FROM best WHERE link = "{}"'.format(r_f[5]))
-                # con.commit()
-
-                # film_left = f'Залишилося фільмів жанру "{message.text}" - {len(film_list) - 1} шт'
-                # bot.send_message(message.chat.id, film_left)
-                # print(film_left)
                 print(
                     f'{message.from_user.id}, {message.from_user.first_name}, {message.from_user.username}, "{r_f[3]}", "{r_f[0]}"')
 
