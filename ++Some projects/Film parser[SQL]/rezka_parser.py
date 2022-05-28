@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
     # Проміжний результат (у майбутньому треба позбутися)
-    result = []
+    __result = []
 
     while True:
 
@@ -14,7 +14,6 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
         url = f"https://rezka.ag/films/{genre}/page/{page}/{filter_}"
 
         # Клієнт
-
         HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 '
                                  '(KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
@@ -35,9 +34,8 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
                     country = film.find('div').text.split(', ')[1]
                     genre_ = film.find('div').text.split(', ')[2]
                     link = film.find('a').get('href')
-                    rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2] if genre == 'best' else None
-
-                    result.append([title, year, country, genre_, rate, link])
+                    rate = re.split('[^0-9,.]', mark.find('i').get_text(strip=1))[-2]
+                    __result.append([title, year, country, genre_, rate, link])
 
                 page += 1
             else:
@@ -45,13 +43,22 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
                 print(f'\nПереглянуті усі фільми категорії https://rezka.ag/films/{genre}')
 
         else:
-            print(f'Переглянуті вибрані фільми ({len(result)}) категорії https://rezka.ag/films/{genre}')
+            result = []
+            for r in __result:
+                """Чистим зайве"""
+                if r[2] not in ('СССР', 'Россия') and r[3] != 'Музыкальные':
+                    result.append(r)
+                else:
+                    pass
+
+            print(
+                f'\nПереглянуті вибрані фільми ({len(result)}, {depth} ст.) категорії https://rezka.ag/films/{genre}')
             break
 
     return result
 
 
-def sql(genre_='best', depth_=1):
+def sql(genre_='best', depth_=6):
     """Запис у БД SQLite"""
 
     try:
@@ -83,9 +90,7 @@ def sql(genre_='best', depth_=1):
 
             cursor.execute("""SELECT * FROM best""")
             Q2 = cursor.fetchall()
-            # print(f'Записано {len(Q2) - len(Q)} фільмів')
-            # return f'Записано {len(Q2) - len(Q)} нових фільмів із {depth_} (-и) сторінок'
-            return f'Записано {len(Q2) - len(Q)} нових фільмів'
+            return f'Записано {len(Q2) - len(Q)} нових фільмів.'
 
     except Exception as ex:
         print(ex)
@@ -97,5 +102,6 @@ def sql(genre_='best', depth_=1):
 
 if __name__ == '__main__':
     print(sql())
+
 else:
     print('Module rezka_parser.py is connected...')

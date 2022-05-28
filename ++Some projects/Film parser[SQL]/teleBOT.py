@@ -7,7 +7,7 @@ from rezka_parser import sql
 from telebot.types import Message, ReplyKeyboardMarkup
 import config
 
-print("Bot RandomFilm is working...")
+print("Bot MS_film is working...")
 
 token = config.token
 bot = telebot.TeleBot(token)
@@ -18,16 +18,31 @@ genre_list = config.genre_list
 @bot.message_handler(commands=['start'])
 def command_handler(message: Message):
     bot.send_sticker(message.chat.id, "CAACAgIAAxkBAAEDGXdhawtyhM_bHvBiqCkkefAiTiGDXwACzAADtIBKJP2ViLiQSME9IQQ")
-
     bot.send_message(message.chat.id, 'Привіт {0.first_name}) \nЯ <b>{1.first_name}</b> - '
-                                      'бот, який допоможе Вам обрати фільм на вечір.'.
+                                      'бот, який допоможе Вам обрати фільм на вечір.'
+                                      '\n\nСписок команд:'
+                                      '\n/random - вибирає випадкову картину за принципом рандому;'
+                                      '\n/get_new - оновлює базу даних;'
+                                      '\n/get_count - вказує на кількість фільмів за жанрами.'.
                      format(message.from_user, bot.get_me()), parse_mode='html')
+
+
+@bot.message_handler(commands=['get_count'])
+def command_handler(message: Message):
+    bot.send_message(message.chat.id, f'Переглядаю кількість фільмів за жанрами...')
+    with sqlite3.connect('rezka.db') as con:
+        c, c_ = con.cursor(), con.cursor()
+        c.execute('SELECT genre, count(*) FROM best group by genre order by count(*) DESC')
+        c_.execute('SELECT count(*) FROM best')
+    inf_c = str([{c[0]: c[1]} for c in c.fetchall()])[1:-1].replace("{", "").replace("}", "").replace("'", "").replace(
+        ", ", ",\n")
+    bot.send_message(message.chat.id, f'Знайшов: \n{inf_c}. \n\nВсього фільмів - {c_.fetchall()[0][0]}.')
 
 
 @bot.message_handler(commands=['get_new'])
 def command_handler(message: Message):
     bot.send_message(message.chat.id, f'Поповнення бази фільмів...')
-    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=5)}')
+    bot.send_message(message.chat.id, f'База поповнена: \n{sql(genre_="best", depth_=6)}')
 
 
 @bot.message_handler(commands=['random'])
