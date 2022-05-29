@@ -14,10 +14,10 @@ def parse(page=1, depth=1, genre='best', filter_='?filter=popular'):
         url = f"https://rezka.ag/films/{genre}/page/{page}/{filter_}"
 
         # Клієнт
-        HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 '
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 '
                                  '(KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 
-        request = requests.get(url, headers=HEADERS)
+        request = requests.get(url, headers=headers)
         soup = BeautifulSoup(request.text, "html.parser")
 
         # HTML - результати
