@@ -45,4 +45,3 @@ print("")
 print("Нова ситуація:")
 print(outputs)
 
-input()

@@ -1,8 +1,13 @@
-ti = 5
-found_coins = 9000
-ad_coins = 1660
-ad_coins_ex = 1050*4
-used_coins = 3000
+import sys
+
+print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:\\Games\\PythonProject', 'D:/Games/PythonProject'])
+
+ti = 0
+found_coins = 0
+ad_coins = 0
+ad_coins_ex = 0
+used_coins = 0
 coins = found_coins
 
 # print(found_coins+ti*(ad_coins_from_work+ad_coins-used_coins))

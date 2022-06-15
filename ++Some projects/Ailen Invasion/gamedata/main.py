@@ -15,8 +15,8 @@ clock = pygame.time.Clock()  # Стабілізація FPS
 background = pygame.image.load('images/back.jpg')
 
 # Фонова музика
-mixer.music.load('sounds/background.wav')
-mixer.music.play(-1)
+# mixer.music.load('sounds/background.wav')
+# mixer.music.play(-1)
 
 # Імя ігри і лого
 pygame.display.set_caption('Ailen Invasion')
@@ -54,12 +54,12 @@ for i in range(enemy_N):
     enemy_ch_y.append(en_vc_y)
     diff.append(i * 0)
 
-# дані missle
-missle_img = pygame.image.load('images/missile.png')
-missle_x = 0
-missle_y = player_y + 10
-missle_change = [0, 26.108]
-missle_state = 'ready'
+# дані missile
+missile_img = pygame.image.load('images/missile.png')
+missile_x = 0
+missile_y = player_y + 10
+missile_change = [0, 40.108]
+missile_state = 'ready'
 
 # Кількість попадань (ігровий рахунок)
 score_val = 0
@@ -99,17 +99,17 @@ def enemy(x, y, i):
     screen.blit(enemy_img[i], (x, y))
 
 
-def fire_missle(x, y):
+def fire_missile(x, y):
     """Описує вивід на екран зображення снаряда"""
-    global missle_state
-    missle_state = 'fire'
-    screen.blit(missle_img, (x + 24, y + 10))
+    global missile_state
+    missile_state = 'fire'
+    screen.blit(missile_img, (x + 24, y + 10))
 
 
 # Відстань від ворогів до снаяряда
-def Collision(enemy_x, enemy_y, missle_x, missle_y):
+def Collision(enemy_x, enemy_y, missile_x, missile_y):
     """Відповідає за визначення відстані від снаряда до ворога - індикатор попадання"""
-    distance = sqrt(pow((enemy_x - 10) - missle_x, 2) + pow(enemy_y - missle_y, 2))
+    distance = sqrt(pow((enemy_x - 10) - missile_x, 2) + pow(enemy_y - missile_y, 2))
     if distance <= 20:
         return True
     else:
@@ -147,12 +147,12 @@ while True:
 
             elif event.key == pygame.K_SPACE:
                 # Реагує на клавішу "SPACE"
-                if missle_state == 'ready':
-                    missle_sound = mixer.Sound('sounds/laser.wav')
-                    missle_sound.set_volume(0.2)
-                    missle_sound.play()
-                    missle_x = abs(player_x)
-                    fire_missle(missle_x, missle_y)
+                if missile_state == 'ready':
+                    missile_sound = mixer.Sound('sounds/laser.wav')
+                    missile_sound.set_volume(0.2)
+                    missile_sound.play()
+                    missile_x = abs(player_x)
+                    fire_missile(missile_x, missile_y)
 
         if event.type == pygame.KEYUP:
             # Коли клавіші руху віджаті, ракета зупиняється
@@ -200,13 +200,13 @@ while True:
             enemy_y[i] += enemy_ch_y[i]
 
         # collision - попадання по мішені, виклик звуку, обліку попадань
-        collision = Collision(enemy_x[i], enemy_y[i], missle_x, missle_y)
+        collision = Collision(enemy_x[i], enemy_y[i], missile_x, missile_y)
         if collision == True:
             explosion_sound = mixer.Sound('sounds/explosion.wav')
             explosion_sound.set_volume(0.8)
             explosion_sound.play()
-            missle_y = player_y
-            missle_state = 'ready'
+            missile_y = player_y
+            missile_state = 'ready'
             score_val += 1
             # print(f'score: {score_val}') - для дебагу, не рухати
 
@@ -216,14 +216,14 @@ while True:
 
         enemy(enemy_x[i], enemy_y[i], i)
 
-    # рух missle - снаряда
-    if missle_y <= 0:
-        missle_y = player_y + 10
-        missle_state = 'ready'
+    # рух missile - снаряда
+    if missile_y <= 0:
+        missile_y = player_y + 10
+        missile_state = 'ready'
 
-    if missle_state == 'fire':
-        fire_missle(missle_x, missle_y)
-        missle_y -= missle_change[1]
+    if missile_state == 'fire':
+        fire_missile(missile_x, missile_y)
+        missile_y -= missile_change[1]
 
     # запуск ігрового процесу
     Show_score(text_x, text_y)

@@ -1,5 +1,9 @@
+import sys
 from bs4 import BeautifulSoup
 import requests
+
+print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:\\Games\\PythonProject', 'D:/Games/PythonProject'])
 
 
 # Зберігаєм у вигляді txt:

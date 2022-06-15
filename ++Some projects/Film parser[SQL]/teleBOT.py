@@ -66,7 +66,7 @@ def command_handler(message: Message):
     with open("logs/logs.txt", "w") as f:
         f.write(
             f'{datetime.datetime.now()}: {message.from_user.id}, {message.from_user.first_name}, '
-            f'{message.from_user.username}, "clear_logs"')
+            f'{message.from_user.username}, "clear_logs"\n')
     file = open("logs/logs.txt", 'rb')
     bot.send_message(message.chat.id, f'Очищую логи...')
     bot.send_document(message.chat.id, file)
