@@ -23,10 +23,9 @@ class Robot:
     def say_HI(self):
         print('Вітаю! Мої хазяї називають мене {0}'.format(self.name))
 
+    @staticmethod
     def how_many():
         print('У нас {0} роботів'.format(Robot.population))
-
-    how_many = staticmethod(how_many)
 
 
 droid1 = Robot('R2-D2')

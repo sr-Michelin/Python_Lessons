@@ -2,8 +2,8 @@
 # Багатопоковий процес із створенням екземплярів певного класу із спільними локальними властивостями
 # (ex.__dict__ - спільний для усіх екземплярів)
 
-class Thread_Data:
-    # __dict__ має постлатися тільки на словник
+class ThreadData:
+    # __dict__ має посилатися тільки на словник
     __common_attrs = {
         'name': 'thread_data_1',
         'data': {},
@@ -11,14 +11,16 @@ class Thread_Data:
     }
 
     def __init__(self):
-        self.__dict__ = Thread_Data.__common_attrs
+        self.new_attr = None
+        self.id = None
+        self.__dict__ = ThreadData.__common_attrs
 
 
-th1 = Thread_Data()
-th2 = Thread_Data()
-th3 = Thread_Data()
-th4 = Thread_Data()
-th5 = Thread_Data()
+th1 = ThreadData()
+th2 = ThreadData()
+th3 = ThreadData()
+th4 = ThreadData()
+th5 = ThreadData()
 
 th = [th1, th2, th3, th4, th5]
 

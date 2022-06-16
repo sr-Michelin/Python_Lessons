@@ -30,7 +30,7 @@ class Print_Data:
 
     def send_data(self, data):
         if not self.send_to_print(data):
-            raise Print_sent_data('Принтеер не відповідає на запит!')
+            raise Print_sent_data('Принтер не відповідає на запит!')
 
     @staticmethod
     def send_to_print(data):

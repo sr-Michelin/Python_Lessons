@@ -24,11 +24,11 @@ print(sorted(S, key=lambda x: x[0]))
 
 # сортування за певним ключем
 students = {
-    ('Mike Shevchenko', 6, 5, 1660),
+    ('Mike Shevchenko', 6, 5, None),
     ('Kolya Husev', 6, 0, None),
-    ('Yaryna Ostapchuk', 6, 7, 1660),
+    ('Yaryna Ostapchuk', 6, 7, None),
     ('Ivan Golubosh', None, 0, None),
-    ('Victor Poverjuk', 6, 2, 2200),
-    ('Sviatoslava Andruhovych', 6, 1, 2200)
+    ('Victor Poverjuk', 6, 2, None),
+    ('Sviatoslava Andruhovych', 6, 1, None)
 }
 print(f'{list(sorted(students, key=lambda x: x[2])[i][0] for i in range(len(students)))} -- сортування за рейтингом')

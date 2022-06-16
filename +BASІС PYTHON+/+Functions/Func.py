@@ -11,7 +11,7 @@ print(r)
 print()
 
 
-def Max(x, y):
+def max(x, y):
     if x > y:
         return x
     elif x == y:
@@ -20,12 +20,12 @@ def Max(x, y):
         return y
 
 
-print(Max(10, 10))
+print(max(10, 10))
 
 print()
 
 
-def NumMax(x, y):
+def nummax(x, y):
     """Something good"""
 
     x = int(x)
@@ -39,5 +39,5 @@ def NumMax(x, y):
         print('Y - найбільше')
 
 
-print(NumMax.__doc__)
-NumMax(10, 11)
+print(nummax.__doc__)
+nummax(10, 11)

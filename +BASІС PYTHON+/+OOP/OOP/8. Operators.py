@@ -34,7 +34,7 @@ class Clock:
     def __sub__(self, other):
         """Для операції коректної типу с1 - с2 використовують перезагрузку операторів "__sub__":"""
         Clock.__oth(other)
-        return Clock(self.__secs + other.get_seconds())
+        return Clock(self.__secs - other.get_seconds())
 
     def __mul__(self, other):
         """Для операції коректної типу с1 * с2 використовують перезагрузку операторів "__mul__":"""

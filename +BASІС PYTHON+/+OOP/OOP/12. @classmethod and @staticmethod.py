@@ -13,7 +13,7 @@ class Vector:
             self.x, self.y = x, y
 
     def get_cords(self):
-        """Гетттер"""
+        """Геттер"""
         if Vector.validate(self.x) and Vector.validate(self.y):
             print(f"{self.x, self.y = }")
 
