@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/+++FOR WORK/__TEST/pomodoro_timer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/+++FOR WORK/__TEST/t" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Y" vcs="Git" />
   </component>
 </project>
