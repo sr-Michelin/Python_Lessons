@@ -1,0 +1,5477 @@
+Start process 0 (19)
+Entering 30350 for 19 (1)
+Start process 1 (20)
+Entering 30352 for 20 (2)
+Start process 2 (21)
+Entering 30353 for 21 (3)
+Start process 3 (22)
+Reading commands from commands140.20.ini
+
+CMD:------------print------------------
+print
+CMD:------------print------------------
+print
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------object------------------
+object
+CMD:------------integration------------------
+CMD:------------integration------------------
+CMD:------------integration------------------
+PREDICTIVE!
+on
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------distance------------------
+distance
+Emis_Lines_SectorNo20_Age140.00Myr.dat
+DIST: 0.000000e+00CMD:------------object------------------
+object
+CMD:------------apperture------------------
+aperture
+CMD:------------object------------------
+object
+CMD:------------object------------------
+object
+CMD:------------print------------------
+print
+CMD:------------°Èñü------------------
+preDONE
+DONE
+output: ../../result/ngc/nograins_parallel_clumps/140
+input: ../../data/ngc1569_Clump
+age: 140.00; app-width: 6.283185x3.141593
+N: 989
+N: 653
+N: 633
+N: 624
+N: 453
+N: 539
+N: 609
+N: 607
+N: 776
+N: 621
+N: 615
+N: 688
+N: 770
+N: 825
+N: 753
+N: 612
+N: 641
+N: 626
+N: 1213
+N: 526
+nSectors[0] = 989 (1.736760e+19 - 6.999105e+21)
+nSectors[1] = 653 (1.736760e+19 - 6.999105e+21)
+nSectors[2] = 633 (1.736760e+19 - 6.999105e+21)
+nSectors[3] = 624 (1.736760e+19 - 6.999105e+21)
+nSectors[4] = 453 (1.736760e+19 - 6.999105e+21)
+nSectors[5] = 539 (1.736760e+19 - 6.999105e+21)
+nSectors[6] = 609 (1.736760e+19 - 6.999105e+21)
+nSectors[7] = 607 (1.736760e+19 - 6.999105e+21)
+nSectors[8] = 776 (1.736760e+19 - 6.999105e+21)
+nSectors[9] = 621 (1.736760e+19 - 6.999105e+21)
+nSectors[10] = 615 (1.736760e+19 - 6.999105e+21)
+nSectors[11] = 688 (1.736760e+19 - 6.999105e+21)
+nSectors[12] = 770 (1.736760e+19 - 6.999105e+21)
+nSectors[13] = 825 (1.736760e+19 - 6.999105e+21)
+nSectors[14] = 753 (1.736760e+19 - 6.999105e+21)
+nSectors[15] = 612 (1.736760e+19 - 6.999105e+21)
+nSectors[16] = 641 (1.736760e+19 - 6.999105e+21)
+nSectors[17] = 626 (1.736760e+19 - 6.999105e+21)
+nSectors[18] = 1213 (1.736760e+19 - 6.999105e+21)
+nSectors[19] = 526 (1.736760e+19 - 6.999105e+21)
+READING LINES
+dbentry
+N: 55869
+N: 55869
+Lines 1 0
+Reading lines
+N: 990
+COUNT: 0;
+COUNT: 0;
+here
+Readen 40
+Lines 2 40
+Reading lines
+N: 654
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 3 40
+Reading lines
+N: 634
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 4 40
+Reading lines
+N: 625
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 5 40
+Reading lines
+N: 454
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 6 40
+Reading lines
+N: 540
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 7 40
+Reading lines
+N: 610
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 8 40
+Reading lines
+N: 608
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 9 40
+Reading lines
+N: 777
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 10 40
+Reading lines
+N: 622
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 11 40
+Reading lines
+N: 616
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 12 40
+Reading lines
+N: 689
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 13 40
+Reading lines
+N: 771
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 14 40
+Reading lines
+N: 826
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 15 40
+Reading lines
+N: 754
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 16 40
+Reading lines
+N: 613
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 17 40
+Reading lines
+N: 642
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 18 40
+Reading lines
+N: 627
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 19 40
+Reading lines
+N: 1214
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 20 40
+Reading lines
+N: 527
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Reading mesh
+initSectorials
+N: 3280
+Readen mesh
+Readen mesh 2
+Mesh count: 3280
+1.052320e-08 - 3.172460e-03 - 1.794080e+02
+Reading physics
+N: 989
+!!!! readPhysics !!! OK
+Reading cont 0
+N: 989
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo1_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransReading commands from commands140.22.ini
+
+CMD:------------print------------------
+print
+CMD:------------print------------------
+print
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------object------------------
+object
+CMD:------------integration------------------
+CMD:------------integration------------------
+CMD:------------integration------------------
+PREDICTIVE!
+on
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------distance------------------
+distance
+Emis_Lines_SectorNo22_Age140.00Myr.dat
+DIST: 0.000000e+00CMD:------------object------------------
+object
+CMD:------------apperture------------------
+aperture
+CMD:------------object------------------
+object
+CMD:------------object------------------
+object
+CMD:------------print------------------
+print
+CMD:------------------------------
+preDONE
+DONE
+output: ../../result/ngc/nograins_parallel_clumps/140
+input: ../../data/ngc1569_Clump
+age: 140.00; app-width: 6.283185x3.141593
+N: 989
+N: 653
+N: 633
+N: 624
+N: 453
+N: 539
+N: 609
+N: 607
+N: 776
+N: 621
+N: 615
+N: 688
+N: 770
+N: 825
+N: 753
+N: 612
+N: 641
+N: 626
+N: 1213
+N: 526
+nSectors[0] = 989 (1.736760e+19 - 6.999105e+21)
+nSectors[1] = 653 (1.736760e+19 - 6.999105e+21)
+nSectors[2] = 633 (1.736760e+19 - 6.999105e+21)
+nSectors[3] = 624 (1.736760e+19 - 6.999105e+21)
+nSectors[4] = 453 (1.736760e+19 - 6.999105e+21)
+nSectors[5] = 539 (1.736760e+19 - 6.999105e+21)
+nSectors[6] = 609 (1.736760e+19 - 6.999105e+21)
+nSectors[7] = 607 (1.736760e+19 - 6.999105e+21)
+nSectors[8] = 776 (1.736760e+19 - 6.999105e+21)
+nSectors[9] = 621 (1.736760e+19 - 6.999105e+21)
+nSectors[10] = 615 (1.736760e+19 - 6.999105e+21)
+nSectors[11] = 688 (1.736760e+19 - 6.999105e+21)
+nSectors[12] = 770 (1.736760e+19 - 6.999105e+21)
+nSectors[13] = 825 (1.736760e+19 - 6.999105e+21)
+nSectors[14] = 753 (1.736760e+19 - 6.999105e+21)
+nSectors[15] = 612 (1.736760e+19 - 6.999105e+21)
+nSectors[16] = 641 (1.736760e+19 - 6.999105e+21)
+nSectors[17] = 626 (1.736760e+19 - 6.999105e+21)
+nSectors[18] = 1213 (1.736760e+19 - 6.999105e+21)
+nSectors[19] = 526 (1.736760e+19 - 6.999105e+21)
+READING LINES
+dbentry
+N: 55869
+N: 55869
+Lines 1 0
+Reading lines
+N: 990
+COUNT: 0;
+COUNT: 0;
+here
+Readen 40
+Lines 2 40
+Reading lines
+N: 654
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 3 40
+Reading lines
+N: 634
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 4 40
+Reading lines
+N: 625
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 5 40
+Reading lines
+N: 454
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 6 40
+Reading lines
+N: 540
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 7 40
+Reading lines
+N: 610
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 8 40
+Reading lines
+N: 608
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 9 40
+Reading lines
+N: 777
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 10 40
+Reading lines
+N: 622
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 11 40
+Reading lines
+N: 616
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 12 40
+Reading lines
+N: 689
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 13 40
+Reading lines
+N: 771
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 14 40
+Reading lines
+N: 826
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 15 40
+Reading lines
+N: 754
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 16 40
+Reading lines
+N: 613
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 17 40
+Reading lines
+N: 642
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 18 40
+Reading lines
+N: 627
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 19 40
+Reading lines
+N: 1214
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 20 40
+Reading lines
+N: 527
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Reading mesh
+initSectorials
+N: 3280
+Readen mesh
+Readen mesh 2
+Mesh count: 3280
+1.052320e-08 - 3.172460e-03 - 1.794080e+02
+Reading physics
+N: 989
+!!!! readPhysics !!! OK
+Reading cont 0
+N: 989
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo1_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitionsReading commands from commands140.19.ini
+
+CMD:------------print------------------
+print
+CMD:------------print------------------
+print
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------object------------------
+object
+CMD:------------integration------------------
+CMD:------------integration------------------
+CMD:------------integration------------------
+PREDICTIVE!
+on
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------distance------------------
+distance
+Emis_Lines_SectorNo19_Age140.00Myr.dat
+DIST: 0.000000e+00CMD:------------object------------------
+object
+CMD:------------apperture------------------
+aperture
+CMD:------------object------------------
+object
+CMD:------------object------------------
+object
+CMD:------------print------------------
+print
+CMD:------------ wõ¬ý------------------
+preDONE
+DONE
+output: ../../result/ngc/nograins_parallel_clumps/140
+input: ../../data/ngc1569_Clump
+age: 140.00; app-width: 6.283185x3.141593
+N: 989
+N: 653
+N: 633
+N: 624
+N: 453
+N: 539
+N: 609
+N: 607
+N: 776
+N: 621
+N: 615
+N: 688
+N: 770
+N: 825
+N: 753
+N: 612
+N: 641
+N: 626
+N: 1213
+N: 526
+nSectors[0] = 989 (1.736760e+19 - 6.999105e+21)
+nSectors[1] = 653 (1.736760e+19 - 6.999105e+21)
+nSectors[2] = 633 (1.736760e+19 - 6.999105e+21)
+nSectors[3] = 624 (1.736760e+19 - 6.999105e+21)
+nSectors[4] = 453 (1.736760e+19 - 6.999105e+21)
+nSectors[5] = 539 (1.736760e+19 - 6.999105e+21)
+nSectors[6] = 609 (1.736760e+19 - 6.999105e+21)
+nSectors[7] = 607 (1.736760e+19 - 6.999105e+21)
+nSectors[8] = 776 (1.736760e+19 - 6.999105e+21)
+nSectors[9] = 621 (1.736760e+19 - 6.999105e+21)
+nSectors[10] = 615 (1.736760e+19 - 6.999105e+21)
+nSectors[11] = 688 (1.736760e+19 - 6.999105e+21)
+nSectors[12] = 770 (1.736760e+19 - 6.999105e+21)
+nSectors[13] = 825 (1.736760e+19 - 6.999105e+21)
+nSectors[14] = 753 (1.736760e+19 - 6.999105e+21)
+nSectors[15] = 612 (1.736760e+19 - 6.999105e+21)
+nSectors[16] = 641 (1.736760e+19 - 6.999105e+21)
+nSectors[17] = 626 (1.736760e+19 - 6.999105e+21)
+nSectors[18] = 1213 (1.736760e+19 - 6.999105e+21)
+nSectors[19] = 526 (1.736760e+19 - 6.999105e+21)
+READING LINES
+dbentry
+N: 55869
+N: 55869
+Lines 1 0
+Reading lines
+N: 990
+COUNT: 0;
+COUNT: 0;
+here
+Readen 40
+Lines 2 40
+Reading lines
+N: 654
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 3 40
+Reading lines
+N: 634
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 4 40
+Reading lines
+N: 625
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 5 40
+Reading lines
+N: 454
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 6 40
+Reading lines
+N: 540
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 7 40
+Reading lines
+N: 610
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 8 40
+Reading lines
+N: 608
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 9 40
+Reading lines
+N: 777
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 10 40
+Reading lines
+N: 622
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 11 40
+Reading lines
+N: 616
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 12 40
+Reading lines
+N: 689
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 13 40
+Reading lines
+N: 771
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 14 40
+Reading lines
+N: 826
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 15 40
+Reading lines
+N: 754
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 16 40
+Reading lines
+N: 613
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 17 40
+Reading lines
+N: 642
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 18 40
+Reading lines
+N: 627
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 19 40
+Reading lines
+N: 1214
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 20 40
+Reading lines
+N: 527
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Reading mesh
+initSectorials
+N: 3280
+Readen mesh
+Readen mesh 2
+Mesh count: 3280
+1.052320e-08 - 3.172460e-03 - 1.794080e+02
+Reading physics
+N: 989
+!!!! readPhysics !!! OK
+Reading cont 0
+N: 989
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo1_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransReading commands from commands140.21.ini
+
+CMD:------------print------------------
+print
+CMD:------------print------------------
+print
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------input------------------
+input
+DIR: ../../data/ngc1569_Clump
+CMD:------------object------------------
+object
+CMD:------------integration------------------
+CMD:------------integration------------------
+CMD:------------integration------------------
+PREDICTIVE!
+on
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------calculation------------------
+CMD:------------distance------------------
+distance
+Emis_Lines_SectorNo21_Age140.00Myr.dat
+DIST: 0.000000e+00CMD:------------object------------------
+object
+CMD:------------apperture------------------
+aperture
+CMD:------------object------------------
+object
+CMD:------------object------------------
+object
+CMD:------------print------------------
+print
+CMD:------------PÈSþ------------------
+preDONE
+DONE
+output: ../../result/ngc/nograins_parallel_clumps/140
+input: ../../data/ngc1569_Clump
+age: 140.00; app-width: 6.283185x3.141593
+N: 989
+N: 653
+N: 633
+N: 624
+N: 453
+N: 539
+N: 609
+N: 607
+N: 776
+N: 621
+N: 615
+N: 688
+N: 770
+N: 825
+N: 753
+N: 612
+N: 641
+N: 626
+N: 1213
+N: 526
+nSectors[0] = 989 (1.736760e+19 - 6.999105e+21)
+nSectors[1] = 653 (1.736760e+19 - 6.999105e+21)
+nSectors[2] = 633 (1.736760e+19 - 6.999105e+21)
+nSectors[3] = 624 (1.736760e+19 - 6.999105e+21)
+nSectors[4] = 453 (1.736760e+19 - 6.999105e+21)
+nSectors[5] = 539 (1.736760e+19 - 6.999105e+21)
+nSectors[6] = 609 (1.736760e+19 - 6.999105e+21)
+nSectors[7] = 607 (1.736760e+19 - 6.999105e+21)
+nSectors[8] = 776 (1.736760e+19 - 6.999105e+21)
+nSectors[9] = 621 (1.736760e+19 - 6.999105e+21)
+nSectors[10] = 615 (1.736760e+19 - 6.999105e+21)
+nSectors[11] = 688 (1.736760e+19 - 6.999105e+21)
+nSectors[12] = 770 (1.736760e+19 - 6.999105e+21)
+nSectors[13] = 825 (1.736760e+19 - 6.999105e+21)
+nSectors[14] = 753 (1.736760e+19 - 6.999105e+21)
+nSectors[15] = 612 (1.736760e+19 - 6.999105e+21)
+nSectors[16] = 641 (1.736760e+19 - 6.999105e+21)
+nSectors[17] = 626 (1.736760e+19 - 6.999105e+21)
+nSectors[18] = 1213 (1.736760e+19 - 6.999105e+21)
+nSectors[19] = 526 (1.736760e+19 - 6.999105e+21)
+READING LINES
+dbentry
+N: 55869
+N: 55869
+Lines 1 0
+Reading lines
+N: 990
+COUNT: 0;
+COUNT: 0;
+here
+Readen 40
+Lines 2 40
+Reading lines
+N: 654
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 3 40
+Reading lines
+N: 634
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 4 40
+Reading lines
+N: 625
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 5 40
+Reading lines
+N: 454
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 6 40
+Reading lines
+N: 540
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 7 40
+Reading lines
+N: 610
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 8 40
+Reading lines
+N: 608
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 9 40
+Reading lines
+N: 777
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 10 40
+Reading lines
+N: 622
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 11 40
+Reading lines
+N: 616
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 12 40
+Reading lines
+N: 689
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 13 40
+Reading lines
+N: 771
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 14 40
+Reading lines
+N: 826
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 15 40
+Reading lines
+N: 754
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 16 40
+Reading lines
+N: 613
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 17 40
+Reading lines
+N: 642
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 18 40
+Reading lines
+N: 627
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 19 40
+Reading lines
+N: 1214
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Lines 20 40
+Reading lines
+N: 527
+COUNT: 40;
+COUNT: 40;
+here
+Readen 40
+Reading mesh
+initSectorials
+N: 3280
+Readen mesh
+Readen mesh 2
+Mesh count: 3280
+1.052320e-08 - 3.172460e-03 - 1.794080e+02
+Reading physics
+N: 989
+!!!! readPhysics !!! OK
+Reading cont 0
+N: 989
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo1_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 989
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 653
+!!!! readPhysics !!! OK
+Reading cont 1
+N: 653
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo2_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 653
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 633
+!!!! readPhysics !!! OK
+Reading cont 2
+N: 633
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo3_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 633
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 624
+!!!! readPhysics !!! OK
+Reading cont 3
+N: 624
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo4_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 624
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 453
+!!!! readPhysics !!! OK
+Reading cont 4
+N: 453
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo5_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 453
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 539
+!!!! readPhysics !!! OK
+Reading cont 5
+N: 539
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo6_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 539
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 609
+!!!! readPhysics !!! OK
+Reading cont 6
+N: 609
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo7_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 609
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 607
+!!!! readPhysics !!! OK
+Reading cont 7
+N: 607
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo8_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 607
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 776
+!!!! readPhysics !!! OK
+Reading cont 8
+N: 776
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo9_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 776
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 621
+!!!! readPhysics !!! OK
+Reading cont 9
+N: 621
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo10_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 621
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 615
+!!!! readPhysics !!! OK
+Reading cont 10
+N: 615
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo11_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 615
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 688
+!!!! readPhysics !!! OK
+Reading cont 11
+N: 688
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_itions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 989
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 653
+!!!! readPhysics !!! OK
+Reading cont 1
+N: 653
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo2_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 653
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 633
+!!!! readPhysics !!! OK
+Reading cont 2
+N: 633
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo3_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 633
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 624
+!!!! readPhysics !!! OK
+Reading cont 3
+N: 624
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo4_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 624
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 453
+!!!! readPhysics !!! OK
+Reading cont 4
+N: 453
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo5_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 453
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 539
+!!!! readPhysics !!! OK
+Reading cont 5
+N: 539
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo6_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 539
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 609
+!!!! readPhysics !!! OK
+Reading cont 6
+N: 609
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo7_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 609
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 607
+!!!! readPhysics !!! OK
+Reading cont 7
+N: 607
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo8_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 607
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 776
+!!!! readPhysics !!! OK
+Reading cont 8
+N: 776
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo9_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 776
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 621
+!!!! readPhysics !!! OK
+Reading cont 9
+N: 621
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo10_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 621
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 615
+!!!! readPhysics !!! OK
+Reading cont 10
+N: 615
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo11_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 615
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 688
+!!!! readPhysics !!! OK
+Reading cont 11
+N: 688
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_itions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 989
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 653
+!!!! readPhysics !!! OK
+Reading cont 1
+N: 653
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo2_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 653
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 633
+!!!! readPhysics !!! OK
+Reading cont 2
+N: 633
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo3_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 633
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 624
+!!!! readPhysics !!! OK
+Reading cont 3
+N: 624
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo4_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 624
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 453
+!!!! readPhysics !!! OK
+Reading cont 4
+N: 453
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo5_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 453
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 539
+!!!! readPhysics !!! OK
+Reading cont 5
+N: 539
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo6_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 539
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 609
+!!!! readPhysics !!! OK
+Reading cont 6
+N: 609
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo7_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 609
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 607
+!!!! readPhysics !!! OK
+Reading cont 7
+N: 607
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo8_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 607
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 776
+!!!! readPhysics !!! OK
+Reading cont 8
+N: 776
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo9_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 776
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 621
+!!!! readPhysics !!! OK
+Reading cont 9
+N: 621
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo10_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 621
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 615
+!!!! readPhysics !!! OK
+Reading cont 10
+N: 615
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo11_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 615
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 688
+!!!! readPhysics !!! OK
+Reading cont 11
+N: 688
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans__readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 989
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 653
+!!!! readPhysics !!! OK
+Reading cont 1
+N: 653
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo2_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 653
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 633
+!!!! readPhysics !!! OK
+Reading cont 2
+N: 633
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo3_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 633
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 624
+!!!! readPhysics !!! OK
+Reading cont 3
+N: 624
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo4_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 624
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 453
+!!!! readPhysics !!! OK
+Reading cont 4
+N: 453
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo5_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 453
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 539
+!!!! readPhysics !!! OK
+Reading cont 5
+N: 539
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo6_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 539
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 609
+!!!! readPhysics !!! OK
+Reading cont 6
+N: 609
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo7_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 609
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 607
+!!!! readPhysics !!! OK
+Reading cont 7
+N: 607
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo8_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 607
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 776
+!!!! readPhysics !!! OK
+Reading cont 8
+N: 776
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo9_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 776
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 621
+!!!! readPhysics !!! OK
+Reading cont 9
+N: 621
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo10_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 621
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 615
+!!!! readPhysics !!! OK
+Reading cont 10
+N: 615
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo11_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 615
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 688
+!!!! readPhysics !!! OK
+Reading cont 11
+N: 688
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorSectorNo12_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 688
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 770
+!!!! readPhysics !!! OK
+Reading cont 12
+N: 770
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo13_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 770
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 825
+!!!! readPhysics !!! OK
+Reading cont 13
+N: 825
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo14_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 825
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 753
+!!!! readPhysics !!! OK
+Reading cont 14
+N: 753
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo15_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 753
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 612
+!!!! readPhysics !!! OK
+Reading cont 15
+N: 612
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo16_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 612
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 641
+!!!! readPhysics !!! OK
+Reading cont 16
+N: 641
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo17_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 641
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 626
+!!!! readPhysics !!! OK
+Reading cont 17
+N: 626
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo18_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 626
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 1213
+!!!! readPhysics !!! OK
+Reading cont 18
+N: 1213
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo19_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 1213
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 526
+!!!! readPhysics !!! OK
+Reading cont 19
+N: 526
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo20_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 526
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Calculate raysLOG: Started calculating points to retain progress: ../../result/ngc/nograins_parallel_clumps/140/Sector21_Age140.00Myr_Fluxes.dat
+Unable to open file with points ../../data/ngc1569_Clump/Emis_Lines_SectorNo21_Age140.00Myr.datSectorNo12_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 688
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 770
+!!!! readPhysics !!! OK
+Reading cont 12
+N: 770
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo13_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 770
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 825
+!!!! readPhysics !!! OK
+Reading cont 13
+N: 825
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo14_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 825
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 753
+!!!! readPhysics !!! OK
+Reading cont 14
+N: 753
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo15_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 753
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 612
+!!!! readPhysics !!! OK
+Reading cont 15
+N: 612
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo16_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 612
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 641
+!!!! readPhysics !!! OK
+Reading cont 16
+N: 641
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo17_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 641
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 626
+!!!! readPhysics !!! OK
+Reading cont 17
+N: 626
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo18_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 626
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 1213
+!!!! readPhysics !!! OK
+Reading cont 18
+N: 1213
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo19_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 1213
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 526
+!!!! readPhysics !!! OK
+Reading cont 19
+N: 526
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo20_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 526
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Calculate raysLOG: Started calculating points to retain progress: ../../result/ngc/nograins_parallel_clumps/140/Sector19_Age140.00Myr_Fluxes.dat
+LOG: Started reading points: ../../data/ngc1569_Clump/Emis_Lines_SectorNo19_Age140.00Myr.dat
+LOG: 1 7.924466e+17
+
+LOG: 2 2.377340e+18
+
+LOG: 3 3.962233e+18
+
+LOG: 4 5.547126e+18
+
+LOG: 5 7.132019e+18
+
+LOG: 6 8.716913e+18
+
+LOG: 7 1.030181e+19
+
+LOG: 8 1.188670e+19
+
+LOG: 9 1.347159e+19
+
+LOG: 10 1.505649e+19
+
+LOG: 11 1.664138e+19
+
+LOG: 12 1.822627e+19
+
+LOG: 13 1.981116e+19
+
+LOG: 14 2.139606e+19
+
+LOG: 15 2.298095e+19
+
+LOG: 16 2.459622e+19
+
+LOG: 17 2.627477e+19
+
+LOG: 18 2.802047e+19
+
+LOG: 19 2.983599e+19
+
+LOG: 20 3.172414e+19
+
+LOG: 21 3.368781e+19
+
+LOG: 22 3.573002e+19
+
+LOG: 23 3.785393e+19
+
+LOG: 24 4.006279e+19
+
+LOG: 25 4.236001e+19
+
+LOG: 26 4.474911e+19
+
+LOG: 27 4.723378e+19
+
+LOG: 28 4.981784e+19
+
+LOG: 29 5.250526e+19
+
+LOG: 30 5.530017e+19
+
+LOG: 31 5.820688e+19
+
+LOG: 32 6.122986e+19
+
+LOG: 33 6.437376e+19
+
+LOG: 34 6.764342e+19
+
+LOG: 35 7.104386e+19
+
+LOG: 36 7.458032e+19
+
+LOG: 37 7.825824e+19
+
+LOG: 38 8.208327e+19
+
+LOG: 39 8.606131e+19
+
+LOG: 40 9.019847e+19
+
+LOG: 41 9.450111e+19
+
+LOG: 42 9.897586e+19
+
+LOG: 43 1.036296e+20
+
+LOG: 44 1.084695e+20
+
+LOG: 45 1.135030e+20
+
+LOG: 46 1.187378e+20
+
+LOG: 47 1.241820e+20
+
+LOG: 48 1.298440e+20
+
+LOG: 49 1.357325e+20
+
+LOG: 50 1.418565e+20
+
+LOG: 51 1.482254e+20
+
+LOG: 52 1.548492e+20
+
+LOG: 53 1.617378e+20
+
+LOG: 54 1.689020e+20
+
+LOG: 55 1.763528e+20
+
+LOG: 56 1.841016e+20
+
+LOG: 57 1.921604e+20
+
+LOG: 58 2.005415e+20
+
+LOG: 59 2.092579e+20
+
+LOG: 60 2.183229e+20
+
+LOG: 61 2.277505e+20
+
+LOG: 62 2.375553e+20
+
+LOG: 63 2.477522e+20
+
+LOG: 64 2.583570e+20
+
+LOG: 65 2.693860e+20
+
+LOG: 66 2.808561e+20
+
+LOG: 67 2.927851e+20
+
+LOG: 68 3.051912e+20
+
+LOG: 69 3.180935e+20
+
+LOG: 70 3.315120e+20
+
+LOG: 71 3.454671e+20
+
+LOG: 72 3.599805e+20
+
+LOG: 73 3.750745e+20
+
+LOG: 74 3.907721e+20
+
+LOG: 75 4.070977e+20
+
+LOG: 76 4.240764e+20
+
+LOG: 77 4.417341e+20
+
+LOG: 78 4.600982e+20
+
+LOG: 79 4.791968e+20
+
+LOG: 80 4.990594e+20
+
+LOG: 81 5.197165e+20
+
+LOG: 82 5.401053e+20
+
+LOG: 83 5.573080e+20
+
+LOG: 84 5.709107e+20
+
+LOG: 85 5.825685e+20
+
+LOG: 86 5.949884e+20
+
+LOG: 87 6.079523e+20
+
+LOG: 88 6.171328e+20
+
+LOG: 89 6.229556e+20
+
+LOG: 90 6.289039e+20
+
+LOG: 91 6.366367e+20
+
+LOG: 92 6.441862e+20
+
+LOG: 93 6.497871e+20
+
+LOG: 94 6.553579e+20
+
+LOG: 95 6.626000e+20
+
+LOG: 96 6.698825e+20
+
+LOG: 97 6.754511e+20
+
+LOG: 98 6.798013e+20
+
+LOG: 99 6.843341e+20
+
+LOG: 100 6.902267e+20
+
+LOG: 101 6.961036e+20
+
+LOG: 102 7.007712e+20
+
+LOG: 103 7.056505e+20
+
+LOG: 104 7.119936e+20
+
+LOG: 105 7.190694e+20
+
+LOG: 106 7.255361e+20
+
+LOG: 107 7.312490e+20
+
+LOG: 108 7.375438e+20
+
+LOG: 109 7.457271e+20
+
+LOG: 110 7.544431e+20
+
+LOG: 111 7.619723e+20
+
+LOG: 112 7.688396e+20
+
+LOG: 113 7.767259e+20
+
+LOG: 114 7.869781e+20
+
+LOG: 115 7.976901e+20
+
+LOG: 116 8.060757e+20
+
+LOG: 117 8.140528e+20
+
+LOG: 118 8.244230e+20
+
+LOG: 119 8.352331e+20
+
+LOG: 120 8.442726e+20
+
+LOG: 121 8.536815e+20
+
+LOG: 122 8.642938e+20
+
+LOG: 123 8.741117e+20
+
+LOG: 124 8.829682e+20
+
+LOG: 125 8.929336e+20
+
+LOG: 126 9.038863e+20
+
+LOG: 127 9.136754e+20
+
+LOG: 128 9.239542e+20
+
+LOG: 129 9.352382e+20
+
+LOG: 130 9.452999e+20
+
+LOG: 131 9.544618e+20
+
+LOG: 132 9.649832e+20
+
+LOG: 133 9.766006e+20
+
+LOG: 134 9.872068e+20
+
+LOG: 135 9.985585e+20
+
+LOG: 136 1.010952e+21
+
+LOG: 137 1.021066e+21
+
+LOG: 138 1.029065e+21
+
+LOG: 139 1.037950e+21
+
+LOG: 140 1.049502e+21
+
+LOG: 141 1.061731e+21
+
+LOG: 142 1.072337e+21
+
+LOG: 143 1.083621e+21
+
+LOG: 144 1.096323e+21
+
+LOG: 145 1.108354e+21
+
+LOG: 146 1.119589e+21
+
+LOG: 147 1.132305e+21
+
+LOG: 148 1.146644e+21
+
+LOG: 149 1.160146e+21
+
+LOG: 150 1.174749e+21
+
+LOG: 151 1.190902e+21
+
+LOG: 152 1.206322e+21
+
+LOG: 153 1.223622e+21
+
+LOG: 154 1.243083e+21
+
+LOG: 155 1.261522e+21
+
+LOG: 156 1.277044e+21
+
+LOG: 157 1.290291e+21
+
+LOG: 158 1.305195e+21
+
+LOG: 159 1.324569e+21
+
+LOG: 160 1.344716e+21
+
+LOG: 161 1.362307e+21
+
+LOG: 162 1.381615e+21
+
+LOG: 163 1.403245e+21
+
+LOG: 164 1.423551e+21
+
+LOG: 165 1.442509e+21
+
+LOG: 166 1.464056e+21
+
+LOG: 167 1.492068e+21
+
+LOG: 168 1.521087e+21
+
+LOG: 169 1.545912e+21
+
+LOG: 170 1.572680e+21
+
+LOG: 171 1.607478e+21
+
+LOG: 172 1.646139e+21
+
+LOG: 173 1.689822e+21
+
+LOG: 174 1.746610e+21
+
+LOG: 175 1.814629e+21
+
+LOG: 176 1.887908e+21
+
+LOG: 177 1.947409e+21
+
+LOG: 178 1.975086e+21
+
+LOG: 179 1.982006e+21
+
+LOG: 180 1.984740e+21
+
+LOG: 181 1.987846e+21
+
+LOG: 182 1.991883e+21
+
+LOG: 183 1.997132e+21
+
+LOG: 184 2.003955e+21
+
+LOG: 185 2.011414e+21
+
+LOG: 186 2.018178e+21
+
+LOG: 187 2.024468e+21
+
+LOG: 188 2.031662e+21
+
+LOG: 189 2.039570e+21
+
+LOG: 190 2.046822e+21
+
+LOG: 191 2.054668e+21
+
+LOG: 192 2.062613e+21
+
+LOG: 193 2.068872e+21
+
+LOG: 194 2.075195e+21
+
+LOG: 195 2.083415e+21
+
+LOG: 196 2.091534e+21
+
+LOG: 197 2.097508e+21
+
+LOG: 198 2.103259e+21
+
+LOG: 199 2.110735e+21
+
+LOG: 200 2.118578e+21
+
+LOG: 201 2.125229e+21
+
+LOG: 202 2.132207e+21
+
+LOG: 203 2.140032e+21
+
+LOG: 204 2.147396e+21
+
+LOG: 205 2.154340e+21
+
+LOG: 206 2.162301e+21
+
+LOG: 207 2.170942e+21
+
+LOG: 208 2.177771e+21
+
+LOG: 209 2.182678e+21
+
+LOG: 210 2.187783e+21
+
+LOG: 211 2.194419e+21
+
+LOG: 212 2.203047e+21
+
+LOG: 213 2.211838e+21
+
+LOG: 214 2.218978e+21
+
+LOG: 215 2.226395e+21
+
+LOG: 216 2.236037e+21
+
+LOG: 217 2.246513e+21
+
+LOG: 218 2.255900e+21
+
+LOG: 219 2.263517e+21
+
+LOG: 220 2.271008e+21
+
+LOG: 221 2.280745e+21
+
+LOG: 222 2.293403e+21
+
+LOG: 223 2.307091e+21
+
+LOG: 224 2.317834e+21
+
+LOG: 225 2.326141e+21
+
+LOG: 226 2.334345e+21
+
+LOG: 227 2.342184e+21
+
+LOG: 228 2.348825e+21
+
+LOG: 229 2.354603e+21
+
+LOG: 230 2.360348e+21
+
+LOG: 231 2.366105e+21
+
+LOG: 232 2.371876e+21
+
+LOG: 233 2.377909e+21
+
+LOG: 234 2.385142e+21
+
+LOG: 235 2.392694e+21
+
+LOG: 236 2.398963e+21
+
+LOG: 237 2.405417e+21
+
+LOG: 238 2.413807e+21
+
+LOG: 239 2.423489e+21
+
+LOG: 240 2.433399e+21
+
+LOG: 241 2.441664e+21
+
+LOG: 242 2.445783e+21
+
+LOG: 243 2.447400e+21
+
+LOG: 244 2.449222e+21
+
+LOG: 245 2.451592e+21
+
+LOG: 246 2.454164e+21
+
+LOG: 247 2.456432e+21
+
+LOG: 248 2.458258e+21
+
+LOG: 249 2.459843e+21
+
+LOG: 250 2.461665e+21
+
+LOG: 251 2.463716e+21
+
+LOG: 252 2.465629e+21
+
+LOG: 253 2.467370e+21
+
+LOG: 254 2.469320e+21
+
+LOG: 255 2.471490e+21
+
+LOG: 256 2.473479e+21
+
+LOG: 257 2.475193e+21
+
+LOG: 258 2.476778e+21
+
+LOG: 259 2.478363e+21
+
+LOG: 260 2.479948e+21
+
+LOG: 261 2.481533e+21
+
+LOG: 262 2.483118e+21
+
+LOG: 263 2.484703e+21
+
+LOG: 264 2.486288e+21
+
+LOG: 265 2.487873e+21
+
+LOG: 266 2.489457e+21
+
+LOG: 267 2.491042e+21
+
+LOG: 268 2.492627e+21
+
+LOG: 269 2.494212e+21
+
+LOG: 270 2.495797e+21
+
+LOG: 271 2.497382e+21
+
+LOG: 272 2.498967e+21
+
+LOG: 273 2.500552e+21
+
+LOG: 274 2.502137e+21
+
+LOG: 275 2.503722e+21
+
+LOG: 276 2.505306e+21
+
+LOG: 277 2.506891e+21
+
+LOG: 278 2.508476e+21
+
+LOG: 279 2.510061e+21
+
+LOG: 280 2.511646e+21
+
+LOG: 281 2.513231e+21
+
+LOG: 282 2.514816e+21
+
+LOG: 283 2.516401e+21
+
+LOG: 284 2.517986e+21
+
+LOG: 285 2.519570e+21
+
+LOG: 286 2.521155e+21
+
+LOG: 287 2.522740e+21
+
+LOG: 288 2.524325e+21
+
+LOG: 289 2.525910e+21
+
+LOG: 290 2.527495e+21
+
+LOG: 291 2.529080e+21
+
+LOG: 292 2.530665e+21
+
+LOG: 293 2.532250e+21
+
+LOG: 294 2.533834e+21
+
+LOG: 295 2.535419e+21
+
+LOG: 296 2.537004e+21
+
+LOG: 297 2.538669e+21
+
+LOG: 298 2.540587e+21
+
+LOG: 299 2.542687e+21
+
+LOG: 300 2.544683e+21
+
+LOG: 301 2.546480e+21
+
+LOG: 302 2.548172e+21
+
+LOG: 303 2.549855e+21
+
+LOG: 304 2.551534e+21
+
+LOG: 305 2.553165e+21
+
+LOG: 306 2.554756e+21
+
+LOG: 307 2.556341e+21
+
+LOG: 308 2.557925e+21
+
+LOG: 309 2.559510e+21
+
+LOG: 310 2.561095e+21
+
+LOG: 311 2.562680e+21
+
+LOG: 312 2.564265e+21
+
+LOG: 313 2.565850e+21
+
+LOG: 314 2.567435e+21
+
+LOG: 315 2.569020e+21
+
+LOG: 316 2.570605e+21
+
+LOG: 317 2.572189e+21
+
+LOG: 318 2.574012e+21
+
+LOG: 319 2.576347e+21
+
+LOG: 320 2.578903e+21
+
+LOG: 321 2.581212e+21
+
+LOG: 322 2.583229e+21
+
+LOG: 323 2.585154e+21
+
+LOG: 324 2.587111e+21
+
+LOG: 325 2.589072e+21
+
+LOG: 326 2.590961e+21
+
+LOG: 327 2.592755e+21
+
+LOG: 328 2.594483e+21
+
+LOG: 329 2.596171e+21
+
+LOG: 330 2.597821e+21
+
+LOG: 331 2.599427e+21
+
+LOG: 332 2.601012e+21
+
+LOG: 333 2.602597e+21
+
+LOG: 334 2.604182e+21
+
+LOG: 335 2.605767e+21
+
+LOG: 336 2.607436e+21
+
+LOG: 337 2.609453e+21
+
+LOG: 338 2.612076e+21
+
+LOG: 339 2.615282e+21
+
+LOG: 340 2.618596e+21
+
+LOG: 341 2.621555e+21
+
+LOG: 342 2.624205e+21
+
+LOG: 343 2.626785e+21
+
+LOG: 344 2.629398e+21
+
+LOG: 345 2.631908e+21
+
+LOG: 346 2.634192e+21
+
+LOG: 347 2.636270e+21
+
+LOG: 348 2.638162e+21
+
+LOG: 349 2.639883e+21
+
+LOG: 350 2.641449e+21
+
+LOG: 351 2.643165e+21
+
+LOG: 352 2.645397e+21
+
+LOG: 353 2.648297e+21
+
+LOG: 354 2.651429e+21
+
+LOG: 355 2.654279e+21
+
+LOG: 356 2.656872e+21
+
+LOG: 357 2.659231e+21
+
+LOG: 358 2.661817e+21
+
+LOG: 359 2.664609e+21
+
+LOG: 360 2.667149e+21
+
+LOG: 361 2.669461e+21
+
+LOG: 362 2.671565e+21
+
+LOG: 363 2.673870e+21
+
+LOG: 364 2.676359e+21
+
+LOG: 365 2.679086e+21
+
+LOG: 366 2.682631e+21
+
+LOG: 367 2.687240e+21
+
+LOG: 368 2.693231e+21
+
+LOG: 369 2.699699e+21
+
+LOG: 370 2.705585e+21
+
+LOG: 371 2.710942e+21
+
+LOG: 372 2.716811e+21
+
+LOG: 373 2.724441e+21
+
+LOG: 374 2.734361e+21
+
+LOG: 375 2.747256e+21
+
+LOG: 376 2.764020e+21
+
+LOG: 377 2.783673e+21
+
+LOG: 378 2.799724e+21
+
+LOG: 379 2.808535e+21
+
+LOG: 380 2.813246e+21
+
+LOG: 381 2.817078e+21
+
+LOG: 382 2.820467e+21
+
+LOG: 383 2.822766e+21
+
+LOG: 384 2.824798e+21
+
+LOG: 385 2.827221e+21
+
+LOG: 386 2.830072e+21
+
+LOG: 387 2.833006e+21
+
+LOG: 388 2.835840e+21
+
+LOG: 389 2.838670e+21
+
+LOG: 390 2.841635e+21
+
+LOG: 391 2.844757e+21
+
+LOG: 392 2.847983e+21
+
+LOG: 393 2.851274e+21
+
+LOG: 394 2.853766e+21
+
+LOG: 395 2.855389e+21
+
+LOG: 396 2.856974e+21
+
+LOG: 397 2.858559e+21
+
+LOG: 398 2.860144e+21
+
+LOG: 399 2.861729e+21
+
+LOG: 400 2.863329e+21
+
+LOG: 401 2.864977e+21
+
+LOG: 402 2.866689e+21
+
+LOG: 403 2.868462e+21
+
+LOG: 404 2.870283e+21
+
+LOG: 405 2.872154e+21
+
+LOG: 406 2.874079e+21
+
+LOG: 407 2.876064e+21
+
+LOG: 408 2.878111e+21
+
+LOG: 409 2.880219e+21
+
+LOG: 410 2.882389e+21
+
+LOG: 411 2.884624e+21
+
+LOG: 412 2.886561e+21
+
+LOG: 413 2.888157e+21
+
+LOG: 414 2.889742e+21
+
+LOG: 415 2.891327e+21
+
+LOG: 416 2.892919e+21
+
+LOG: 417 2.894545e+21
+
+LOG: 418 2.896234e+21
+
+LOG: 419 2.897986e+21
+
+LOG: 420 2.899792e+21
+
+LOG: 421 2.901644e+21
+
+LOG: 422 2.903548e+21
+
+LOG: 423 2.905512e+21
+
+LOG: 424 2.907537e+21
+
+LOG: 425 2.909623e+21
+
+LOG: 426 2.911771e+21
+
+LOG: 427 2.913982e+21
+
+LOG: 428 2.916260e+21
+
+LOG: 429 2.918607e+21
+
+LOG: 430 2.920591e+21
+
+LOG: 431 2.922176e+21
+
+LOG: 432 2.923761e+21
+
+LOG: 433 2.925346e+21
+
+LOG: 434 2.926931e+21
+
+LOG: 435 2.928516e+21
+
+LOG: 436 2.930101e+21
+
+LOG: 437 2.931686e+21
+
+LOG: 438 2.933270e+21
+
+LOG: 439 2.934855e+21
+
+LOG: 440 2.936440e+21
+
+LOG: 441 2.938025e+21
+
+LOG: 442 2.939610e+21
+
+LOG: 443 2.941195e+21
+
+LOG: 444 2.942793e+21
+
+LOG: 445 2.944436e+21
+
+LOG: 446 2.946144e+21
+
+LOG: 447 2.947913e+21
+
+LOG: 448 2.949731e+21
+
+LOG: 449 2.951597e+21
+
+LOG: 450 2.953518e+21
+
+LOG: 451 2.955285e+21
+
+LOG: 452 2.956870e+21
+
+LOG: 453 2.958455e+21
+
+LOG: 454 2.960040e+21
+
+LOG: 455 2.961625e+21
+
+LOG: 456 2.963210e+21
+
+LOG: 457 2.964795e+21
+
+LOG: 458 2.966380e+21
+
+LOG: 459 2.967965e+21
+
+LOG: 460 2.969549e+21
+
+LOG: 461 2.971134e+21
+
+LOG: 462 2.972719e+21
+
+LOG: 463 2.974304e+21
+
+LOG: 464 2.975889e+21
+
+LOG: 465 2.977474e+21
+
+LOG: 466 2.979059e+21
+
+LOG: 467 2.980644e+21
+
+LOG: 468 2.982229e+21
+
+LOG: 469 2.983813e+21
+
+LOG: 470 2.985398e+21
+
+LOG: 471 2.986983e+21
+
+LOG: 472 2.988568e+21
+
+LOG: 473 2.990189e+21
+
+LOG: 474 2.991897e+21
+
+LOG: 475 2.993688e+21
+
+LOG: 476 2.995528e+21
+
+LOG: 477 2.997406e+21
+
+LOG: 478 2.999334e+21
+
+LOG: 479 3.001105e+21
+
+LOG: 480 3.002813e+21
+
+LOG: 481 3.004522e+21
+
+LOG: 482 3.006311e+21
+
+LOG: 483 3.008536e+21
+
+LOG: 484 3.010774e+21
+
+LOG: 485 3.012687e+21
+
+LOG: 486 3.014382e+21
+
+LOG: 487 3.016205e+21
+
+LOG: 488 3.018208e+21
+
+LOG: 489 3.020063e+21
+
+LOG: 490 3.021810e+21
+
+LOG: 491 3.023804e+21
+
+LOG: 492 3.025723e+21
+
+LOG: 493 3.027308e+21
+
+LOG: 494 3.028892e+21
+
+LOG: 495 3.030477e+21
+
+LOG: 496 3.032062e+21
+
+LOG: 497 3.033647e+21
+
+LOG: 498 3.035232e+21
+
+LOG: 499 3.036817e+21
+
+LOG: 500 3.038402e+21
+
+LOG: 501 3.039987e+21
+
+LOG: 502 3.041572e+21
+
+LOG: 503 3.043157e+21
+
+LOG: 504 3.044741e+21
+
+LOG: 505 3.046326e+21
+
+LOG: 506 3.047911e+21
+
+LOG: 507 3.049496e+21
+
+LOG: 508 3.051081e+21
+
+LOG: 509 3.052666e+21
+
+LOG: 510 3.054251e+21
+
+LOG: 511 3.055836e+21
+
+LOG: 512 3.057421e+21
+
+LOG: 513 3.059243e+21
+
+LOG: 514 3.061613e+21
+
+LOG: 515 3.063908e+21
+
+LOG: 516 3.065657e+21
+
+LOG: 517 3.067242e+21
+
+LOG: 518 3.068827e+21
+
+LOG: 519 3.070412e+21
+
+LOG: 520 3.071997e+21
+
+LOG: 521 3.073582e+21
+
+LOG: 522 3.075167e+21
+
+LOG: 523 3.076752e+21
+
+LOG: 524 3.078337e+21
+
+LOG: 525 3.079921e+21
+
+LOG: 526 3.081506e+21
+
+LOG: 527 3.083178e+21
+
+LOG: 528 3.084908e+21
+
+LOG: 529 3.086550e+21
+
+LOG: 530 3.088135e+21
+
+LOG: 531 3.089720e+21
+
+LOG: 532 3.091305e+21
+
+LOG: 533 3.092890e+21
+
+LOG: 534 3.094475e+21
+
+LOG: 535 3.096060e+21
+
+LOG: 536 3.097645e+21
+
+LOG: 537 3.099230e+21
+
+LOG: 538 3.100814e+21
+
+LOG: 539 3.102399e+21
+
+LOG: 540 3.103984e+21
+
+LOG: 541 3.105569e+21
+
+LOG: 542 3.107154e+21
+
+LOG: 543 3.108739e+21
+
+LOG: 544 3.110324e+21
+
+LOG: 545 3.112146e+21
+
+LOG: 546 3.114161e+21
+
+LOG: 547 3.116029e+21
+
+LOG: 548 3.117704e+21
+
+LOG: 549 3.119289e+21
+
+LOG: 550 3.120874e+21
+
+LOG: 551 3.122459e+21
+
+LOG: 552 3.124248e+21
+
+LOG: 553 3.126176e+21
+
+LOG: 554 3.127946e+21
+
+LOG: 555 3.129871e+21
+
+LOG: 556 3.132374e+21
+
+LOG: 557 3.135628e+21
+
+LOG: 558 3.139858e+21
+
+LOG: 559 3.145357e+21
+
+LOG: 560 3.151906e+21
+
+LOG: 561 3.158441e+21
+
+LOG: 562 3.163611e+21
+
+LOG: 563 3.168384e+21
+
+LOG: 564 3.172431e+21
+
+LOG: 565 3.174598e+21
+
+LOG: 566 3.176368e+21
+
+LOG: 567 3.178557e+21
+
+LOG: 568 3.180871e+21
+
+LOG: 569 3.182760e+21
+
+LOG: 570 3.184367e+21
+
+LOG: 571 3.185953e+21
+
+LOG: 572 3.187775e+21
+
+LOG: 573 3.189680e+21
+
+LOG: 574 3.191354e+21
+
+LOG: 575 3.193194e+21
+
+LOG: 576 3.195111e+21
+
+LOG: 577 3.196788e+21
+
+LOG: 578 3.198381e+21
+
+LOG: 579 3.199966e+21
+
+LOG: 580 3.201551e+21
+
+LOG: 581 3.203136e+21
+
+LOG: 582 3.204721e+21
+
+LOG: 583 3.206305e+21
+
+LOG: 584 3.207890e+21
+
+LOG: 585 3.209475e+21
+
+LOG: 586 3.211060e+21
+
+LOG: 587 3.212645e+21
+
+LOG: 588 3.214230e+21
+
+LOG: 589 3.215815e+21
+
+LOG: 590 3.217400e+21
+
+LOG: 591 3.218985e+21
+
+LOG: 592 3.220570e+21
+
+LOG: 593 3.222154e+21
+
+LOG: 594 3.223739e+21
+
+LOG: 595 3.225324e+21
+
+LOG: 596 3.226909e+21
+
+LOG: 597 3.228494e+21
+
+LOG: 598 3.230079e+21
+
+LOG: 599 3.231664e+21
+
+LOG: 600 3.233249e+21
+
+LOG: 601 3.234834e+21
+
+LOG: 602 3.236418e+21
+
+LOG: 603 3.238003e+21
+
+LOG: 604 3.239588e+21
+
+LOG: 605 3.241173e+21
+
+LOG: 606 3.242758e+21
+
+LOG: 607 3.244343e+21
+
+LOG: 608 3.245928e+21
+
+LOG: 609 3.247513e+21
+
+LOG: 610 3.249098e+21
+
+LOG: 611 3.250682e+21
+
+LOG: 612 3.252267e+21
+
+LOG: 613 3.253852e+21
+
+LOG: 614 3.255437e+21
+
+LOG: 615 3.257022e+21
+
+LOG: 616 3.258607e+21
+
+LOG: 617 3.260192e+21
+
+LOG: 618 3.261777e+21
+
+LOG: 619 3.263362e+21
+
+LOG: 620 3.264947e+21
+
+LOG: 621 3.266531e+21
+
+LOG: 622 3.268354e+21
+
+LOG: 623 3.270723e+21
+
+LOG: 624 3.273804e+21
+
+LOG: 625 3.277808e+21
+
+LOG: 626 3.283014e+21
+
+LOG: 627 3.288505e+21
+
+LOG: 628 3.293575e+21
+
+LOG: 629 3.298469e+21
+
+LOG: 630 3.303200e+21
+
+LOG: 631 3.308627e+21
+
+LOG: 632 3.315681e+21
+
+LOG: 633 3.323363e+21
+
+LOG: 634 3.329705e+21
+
+LOG: 635 3.334750e+21
+
+LOG: 636 3.340266e+21
+
+LOG: 637 3.346401e+21
+
+LOG: 638 3.352101e+21
+
+LOG: 639 3.357453e+21
+
+LOG: 640 3.363596e+21
+
+LOG: 641 3.370462e+21
+
+LOG: 642 3.376867e+21
+
+LOG: 643 3.383790e+21
+
+LOG: 644 3.392791e+21
+
+LOG: 645 3.402055e+21
+
+LOG: 646 3.409669e+21
+
+LOG: 647 3.417574e+21
+
+LOG: 648 3.427850e+21
+
+LOG: 649 3.441209e+21
+
+LOG: 650 3.458575e+21
+
+LOG: 651 3.481152e+21
+
+LOG: 652 3.510502e+21
+
+LOG: 653 3.548657e+21
+
+LOG: 654 3.598258e+21
+
+LOG: 655 3.662739e+21
+
+LOG: 656 3.714107e+21
+
+LOG: 657 3.735967e+21
+
+LOG: 658 3.751928e+21
+
+LOG: 659 3.772676e+21
+
+LOG: 660 3.799648e+21
+
+LOG: 661 3.827103e+21
+
+LOG: 662 3.849509e+21
+
+LOG: 663 3.872963e+21
+
+LOG: 664 3.898873e+21
+
+LOG: 665 3.914993e+21
+
+LOG: 666 3.919704e+21
+
+LOG: 667 3.921743e+21
+
+LOG: 668 3.923327e+21
+
+LOG: 669 3.925150e+21
+
+LOG: 670 3.927519e+21
+
+LOG: 671 3.930600e+21
+
+LOG: 672 3.934604e+21
+
+LOG: 673 3.939810e+21
+
+LOG: 674 3.946577e+21
+
+LOG: 675 3.955374e+21
+
+LOG: 676 3.966811e+21
+
+LOG: 677 3.981679e+21
+
+LOG: 678 3.997423e+21
+
+LOG: 679 4.011383e+21
+
+LOG: 680 4.026608e+21
+
+LOG: 681 4.046402e+21
+
+LOG: 682 4.072133e+21
+
+LOG: 683 4.099902e+21
+
+LOG: 684 4.124933e+21
+
+LOG: 685 4.143921e+21
+
+LOG: 686 4.154941e+21
+
+LOG: 687 4.162074e+21
+
+LOG: 688 4.169656e+21
+
+LOG: 689 4.179513e+21
+
+LOG: 690 4.192327e+21
+
+LOG: 691 4.206746e+21
+
+LOG: 692 4.219858e+21
+
+LOG: 693 4.233508e+21
+
+LOG: 694 4.251253e+21
+
+LOG: 695 4.270659e+21
+
+LOG: 696 4.288083e+21
+
+LOG: 697 4.303235e+21
+
+LOG: 698 4.319576e+21
+
+LOG: 699 4.340819e+21
+
+LOG: 700 4.362216e+21
+
+LOG: 701 4.378742e+21
+
+LOG: 702 4.391719e+21
+
+LOG: 703 4.399021e+21
+
+LOG: 704 4.401274e+21
+
+LOG: 705 4.402859e+21
+
+LOG: 706 4.404681e+21
+
+LOG: 707 4.406659e+21
+
+LOG: 708 4.408401e+21
+
+LOG: 709 4.409988e+21
+
+LOG: 710 4.411573e+21
+
+LOG: 711 4.413157e+21
+
+LOG: 712 4.414742e+21
+
+LOG: 713 4.416327e+21
+
+LOG: 714 4.417912e+21
+
+LOG: 715 4.419497e+21
+
+LOG: 716 4.421082e+21
+
+LOG: 717 4.422667e+21
+
+LOG: 718 4.424252e+21
+
+LOG: 719 4.425837e+21
+
+LOG: 720 4.427659e+21
+
+LOG: 721 4.430029e+21
+
+LOG: 722 4.433109e+21
+
+LOG: 723 4.437113e+21
+
+LOG: 724 4.442319e+21
+
+LOG: 725 4.449086e+21
+
+LOG: 726 4.457884e+21
+
+LOG: 727 4.465342e+21
+
+LOG: 728 4.468621e+21
+
+LOG: 729 4.470206e+21
+
+LOG: 730 4.471791e+21
+
+LOG: 731 4.473376e+21
+
+LOG: 732 4.474961e+21
+
+LOG: 733 4.476545e+21
+
+LOG: 734 4.478130e+21
+
+LOG: 735 4.479715e+21
+
+LOG: 736 4.481538e+21
+
+LOG: 737 4.483907e+21
+
+LOG: 738 4.486988e+21
+
+LOG: 739 4.490992e+21
+
+LOG: 740 4.496197e+21
+
+LOG: 741 4.502965e+21
+
+LOG: 742 4.511762e+21
+
+LOG: 743 4.523199e+21
+
+LOG: 744 4.537515e+21
+
+LOG: 745 4.547870e+21
+
+LOG: 746 4.553626e+21
+
+LOG: 747 4.557671e+21
+
+LOG: 748 4.559494e+21
+
+LOG: 749 4.561317e+21
+
+LOG: 750 4.563139e+21
+
+LOG: 751 4.564962e+21
+
+LOG: 752 4.566785e+21
+
+LOG: 753 4.568607e+21
+
+LOG: 754 4.570192e+21
+
+LOG: 755 4.571777e+21
+
+LOG: 756 4.573600e+21
+
+LOG: 757 4.575422e+21
+
+LOG: 758 4.577007e+21
+
+LOG: 759 4.578830e+21
+
+LOG: 760 4.580652e+21
+
+LOG: 761 4.582475e+21
+
+LOG: 762 4.584298e+21
+
+LOG: 763 4.585883e+21
+
+LOG: 764 4.587467e+21
+
+LOG: 765 4.589052e+21
+
+LOG: 766 4.590637e+21
+
+LOG: 767 4.592222e+21
+
+LOG: 768 4.594045e+21
+
+LOG: 769 4.596109e+21
+
+LOG: 770 4.598434e+21
+
+LOG: 771 4.601402e+21
+
+LOG: 772 4.605261e+21
+
+LOG: 773 4.610277e+21
+
+LOG: 774 4.616798e+21
+
+LOG: 775 4.625275e+21
+
+LOG: 776 4.631934e+21
+
+LOG: 777 4.634622e+21
+
+LOG: 778 4.636235e+21
+
+LOG: 779 4.637820e+21
+
+LOG: 780 4.639643e+21
+
+LOG: 781 4.641465e+21
+
+LOG: 782 4.643050e+21
+
+LOG: 783 4.644635e+21
+
+LOG: 784 4.646220e+21
+
+LOG: 785 4.647805e+21
+
+LOG: 786 4.649390e+21
+
+LOG: 787 4.650975e+21
+
+LOG: 788 4.652559e+21
+
+LOG: 789 4.654144e+21
+
+LOG: 790 4.655729e+21
+
+LOG: 791 4.657314e+21
+
+LOG: 792 4.658899e+21
+
+LOG: 793 4.660484e+21
+
+LOG: 794 4.662069e+21
+
+LOG: 795 4.663654e+21
+
+LOG: 796 4.665239e+21
+
+LOG: 797 4.666823e+21
+
+LOG: 798 4.668408e+21
+
+LOG: 799 4.669993e+21
+
+LOG: 800 4.671578e+21
+
+LOG: 801 4.673163e+21
+
+LOG: 802 4.674748e+21
+
+LOG: 803 4.676333e+21
+
+LOG: 804 4.677918e+21
+
+LOG: 805 4.679503e+21
+
+LOG: 806 4.681088e+21
+
+LOG: 807 4.682672e+21
+
+LOG: 808 4.684257e+21
+
+LOG: 809 4.685842e+21
+
+LOG: 810 4.687427e+21
+
+LOG: 811 4.689012e+21
+
+LOG: 812 4.690597e+21
+
+LOG: 813 4.692110e+21
+
+LOG: 814 4.693769e+21
+
+LOG: 815 4.695499e+21
+
+LOG: 816 4.697084e+21
+
+LOG: 817 4.698669e+21
+
+LOG: 818 4.700491e+21
+
+LOG: 819 4.702861e+21
+
+LOG: 820 4.705941e+21
+
+LOG: 821 4.709914e+21
+
+LOG: 822 4.714445e+21
+
+LOG: 823 4.719412e+21
+
+LOG: 824 4.725552e+21
+
+LOG: 825 4.733534e+21
+
+LOG: 826 4.742746e+21
+
+LOG: 827 4.752414e+21
+
+LOG: 828 4.762310e+21
+
+LOG: 829 4.772110e+21
+
+LOG: 830 4.782330e+21
+
+LOG: 831 4.794632e+21
+
+LOG: 832 4.810314e+21
+
+LOG: 833 4.826955e+21
+
+LOG: 834 4.839812e+21
+
+LOG: 835 4.850649e+21
+
+LOG: 836 4.861205e+21
+
+LOG: 837 4.871209e+21
+
+LOG: 838 4.881319e+21
+
+LOG: 839 4.892215e+21
+
+LOG: 840 4.906045e+21
+
+LOG: 841 4.919980e+21
+
+LOG: 842 4.932961e+21
+
+LOG: 843 4.945478e+21
+
+LOG: 844 4.956552e+21
+
+LOG: 845 4.966934e+21
+
+LOG: 846 4.976509e+21
+
+LOG: 847 4.985425e+21
+
+LOG: 848 4.994598e+21
+
+LOG: 849 5.005135e+21
+
+LOG: 850 5.016596e+21
+
+LOG: 851 5.027441e+21
+
+LOG: 852 5.037272e+21
+
+LOG: 853 5.046337e+21
+
+LOG: 854 5.055282e+21
+
+LOG: 855 5.064071e+21
+
+LOG: 856 5.072617e+21
+
+LOG: 857 5.081168e+21
+
+LOG: 858 5.089548e+21
+
+LOG: 859 5.097734e+21
+
+LOG: 860 5.105812e+21
+
+LOG: 861 5.113890e+21
+
+LOG: 862 5.122019e+21
+
+LOG: 863 5.130197e+21
+
+LOG: 864 5.138818e+21
+
+LOG: 865 5.147849e+21
+
+LOG: 866 5.156712e+21
+
+LOG: 867 5.165524e+21
+
+LOG: 868 5.174543e+21
+
+LOG: 869 5.183773e+21
+
+LOG: 870 5.193218e+21
+
+LOG: 871 5.202884e+21
+
+LOG: 872 5.212776e+21
+
+LOG: 873 5.223474e+21
+
+LOG: 874 5.235326e+21
+
+LOG: 875 5.247819e+21
+
+LOG: 876 5.260025e+21
+
+LOG: 877 5.271008e+21
+
+LOG: 878 5.280664e+21
+
+LOG: 879 5.289479e+21
+
+LOG: 880 5.297855e+21
+
+LOG: 881 5.305863e+21
+
+LOG: 882 5.313462e+21
+
+LOG: 883 5.320507e+21
+
+LOG: 884 5.326830e+21
+
+LOG: 885 5.332530e+21
+
+LOG: 886 5.337826e+21
+
+LOG: 887 5.342797e+21
+
+LOG: 888 5.347363e+21
+
+LOG: 889 5.351223e+21
+
+LOG: 890 5.354165e+21
+
+LOG: 891 5.356455e+21
+
+LOG: 892 5.358558e+21
+
+LOG: 893 5.360687e+21
+
+LOG: 894 5.362789e+21
+
+LOG: 895 5.364781e+21
+
+LOG: 896 5.366637e+21
+
+LOG: 897 5.368428e+21
+
+LOG: 898 5.370231e+21
+
+LOG: 899 5.371933e+21
+
+LOG: 900 5.373518e+21
+
+LOG: 901 5.375103e+21
+
+LOG: 902 5.376687e+21
+
+LOG: 903 5.378272e+21
+
+LOG: 904 5.379857e+21
+
+LOG: 905 5.381442e+21
+
+LOG: 906 5.383027e+21
+
+LOG: 907 5.384612e+21
+
+LOG: 908 5.386197e+21
+
+LOG: 909 5.387782e+21
+
+LOG: 910 5.389367e+21
+
+LOG: 911 5.390951e+21
+
+LOG: 912 5.392536e+21
+
+LOG: 913 5.394121e+21
+
+LOG: 914 5.395706e+21
+
+LOG: 915 5.397291e+21
+
+LOG: 916 5.398882e+21
+
+LOG: 917 5.400473e+21
+
+LOG: 918 5.402058e+21
+
+LOG: 919 5.403643e+21
+
+LOG: 920 5.405228e+21
+
+LOG: 921 5.406813e+21
+
+LOG: 922 5.408398e+21
+
+LOG: 923 5.409983e+21
+
+LOG: 924 5.411567e+21
+
+LOG: 925 5.413152e+21
+
+LOG: 926 5.414737e+21
+
+LOG: 927 5.416322e+21
+
+LOG: 928 5.417907e+21
+
+LOG: 929 5.419492e+21
+
+LOG: 930 5.421077e+21
+
+LOG: 931 5.422662e+21
+
+LOG: 932 5.424247e+21
+
+LOG: 933 5.425831e+21
+
+LOG: 934 5.427416e+21
+
+LOG: 935 5.429001e+21
+
+LOG: 936 5.430586e+21
+
+LOG: 937 5.432171e+21
+
+LOG: 938 5.433756e+21
+
+LOG: 939 5.435341e+21
+
+LOG: 940 5.436926e+21
+
+LOG: 941 5.438511e+21
+
+LOG: 942 5.440096e+21
+
+LOG: 943 5.441680e+21
+
+LOG: 944 5.443194e+21
+
+LOG: 945 5.444571e+21
+
+LOG: 946 5.445825e+21
+
+LOG: 947 5.446965e+21
+
+LOG: 948 5.448003e+21
+
+LOG: 949 5.448948e+21
+
+LOG: 950 5.449807e+21
+
+LOG: 951 5.450589e+21
+
+LOG: 952 5.451301e+21
+
+LOG: 953 5.451949e+21
+
+LOG: 954 5.452538e+21
+
+LOG: 955 5.453075e+21
+
+LOG: 956 5.454123e+21
+
+LOG: 957 5.455636e+21
+
+LOG: 958 5.457014e+21
+
+LOG: 959 5.458267e+21
+
+LOG: 960 5.459408e+21
+
+LOG: 961 5.460445e+21
+
+LOG: 962 5.461390e+21
+
+LOG: 963 5.462250e+21
+
+LOG: 964 5.463032e+21
+
+LOG: 965 5.463743e+21
+
+LOG: 966 5.464391e+21
+
+LOG: 967 5.464981e+21
+
+LOG: 968 5.465517e+21
+
+LOG: 969 5.466005e+21
+
+LOG: 970 5.467030e+21
+
+LOG: 971 5.468544e+21
+
+LOG: 972 5.469921e+21
+
+LOG: 973 5.471174e+21
+
+LOG: 974 5.472315e+21
+
+LOG: 975 5.473353e+21
+
+LOG: 976 5.474297e+21
+
+LOG: 977 5.475157e+21
+
+LOG: 978 5.475939e+21
+
+LOG: 979 5.476651e+21
+
+LOG: 980 5.477298e+21
+
+LOG: 981 5.477888e+21
+
+LOG: 982 5.478961e+21
+
+LOG: 983 5.480475e+21
+
+LOG: 984 5.481852e+21
+
+LOG: 985 5.483105e+21
+
+LOG: 986 5.484246e+21
+
+LOG: 987 5.485284e+21
+
+LOG: 988 5.486228e+21
+
+LOG: 989 5.487088e+21
+
+LOG: 990 5.487870e+21
+
+LOG: 991 5.489035e+21
+
+LOG: 992 5.490549e+21
+
+LOG: 993 5.491926e+21
+
+LOG: 994 5.493180e+21
+
+LOG: 995 5.494320e+21
+
+LOG: 996 5.495358e+21
+
+LOG: 997 5.496303e+21
+
+LOG: 998 5.497162e+21
+
+LOG: 999 5.498364e+21
+
+LOG: 1000 5.499878e+21
+
+LOG: 1001 5.501251e+21
+
+LOG: 1002 5.502704e+21
+
+LOG: 1003 5.504289e+21
+
+LOG: 1004 5.505873e+21
+
+LOG: 1005 5.507458e+21
+
+LOG: 1006 5.509043e+21
+
+LOG: 1007 5.510628e+21
+
+LOG: 1008 5.512213e+21
+
+LOG: 1009 5.513798e+21
+
+LOG: 1010 5.515383e+21
+
+LOG: 1011 5.516974e+21
+
+LOG: 1012 5.518566e+21
+
+LOG: 1013 5.520151e+21
+
+LOG: 1014 5.521736e+21
+
+LOG: 1015 5.523467e+21
+
+LOG: 1016 5.525199e+21
+
+LOG: 1017 5.526935e+21
+
+LOG: 1018 5.528670e+21
+
+LOG: 1019 5.530255e+21
+
+LOG: 1020 5.532078e+21
+
+LOG: 1021 5.533905e+21
+
+LOG: 1022 5.535495e+21
+
+LOG: 1023 5.537318e+21
+
+LOG: 1024 5.539178e+21
+
+LOG: 1025 5.541020e+21
+
+LOG: 1026 5.543184e+21
+
+LOG: 1027 5.545227e+21
+
+LOG: 1028 5.547274e+21
+
+LOG: 1029 5.549671e+21
+
+LOG: 1030 5.552077e+21
+
+LOG: 1031 5.554400e+21
+
+LOG: 1032 5.556931e+21
+
+LOG: 1033 5.559707e+21
+
+LOG: 1034 5.562526e+21
+
+LOG: 1035 5.565267e+21
+
+LOG: 1036 5.568315e+21
+
+LOG: 1037 5.571800e+21
+
+LOG: 1038 5.575757e+21
+
+LOG: 1039 5.580014e+21
+
+LOG: 1040 5.584383e+21
+
+LOG: 1041 5.589686e+21
+
+LOG: 1042 5.596572e+21
+
+LOG: 1043 5.604879e+21
+
+LOG: 1044 5.614445e+21
+
+LOG: 1045 5.625408e+21
+
+LOG: 1046 5.637678e+21
+
+LOG: 1047 5.651249e+21
+
+LOG: 1048 5.666207e+21
+
+LOG: 1049 5.682561e+21
+
+LOG: 1050 5.699884e+21
+
+LOG: 1051 5.717823e+21
+
+LOG: 1052 5.736136e+21
+
+LOG: 1053 5.754741e+21
+
+LOG: 1054 5.769504e+21
+
+LOG: 1055 5.780868e+21
+
+LOG: 1056 5.790330e+21
+
+LOG: 1057 5.796827e+21
+
+LOG: 1058 5.801954e+21
+
+LOG: 1059 5.806721e+21
+
+LOG: 1060 5.811478e+21
+
+LOG: 1061 5.816222e+21
+
+LOG: 1062 5.821069e+21
+
+LOG: 1063 5.826047e+21
+
+LOG: 1064 5.832519e+21
+
+LOG: 1065 5.839970e+21
+
+LOG: 1066 5.848411e+21
+
+LOG: 1067 5.856608e+21
+
+LOG: 1068 5.864771e+21
+
+LOG: 1069 5.874439e+21
+
+LOG: 1070 5.886021e+21
+
+LOG: 1071 5.897516e+21
+
+LOG: 1072 5.906460e+21
+
+LOG: 1073 5.913736e+21
+
+LOG: 1074 5.920558e+21
+
+LOG: 1075 5.927001e+21
+
+LOG: 1076 5.932754e+21
+
+LOG: 1077 5.937611e+21
+
+LOG: 1078 5.942269e+21
+
+LOG: 1079 5.947033e+21
+
+LOG: 1080 5.951230e+21
+
+LOG: 1081 5.955980e+21
+
+LOG: 1082 5.960350e+21
+
+LOG: 1083 5.963475e+21
+
+LOG: 1084 5.966034e+21
+
+LOG: 1085 5.968609e+21
+
+LOG: 1086 5.970856e+21
+
+LOG: 1087 5.972679e+21
+
+LOG: 1088 5.975019e+21
+
+LOG: 1089 5.977563e+21
+
+LOG: 1090 5.979996e+21
+
+LOG: 1091 5.982372e+21
+
+LOG: 1092 5.984588e+21
+
+LOG: 1093 5.986982e+21
+
+LOG: 1094 5.989281e+21
+
+LOG: 1095 5.991289e+21
+
+LOG: 1096 5.993451e+2SectorNo12_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 688
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 770
+!!!! readPhysics !!! OK
+Reading cont 12
+N: 770
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo13_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 770
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 825
+!!!! readPhysics !!! OK
+Reading cont 13
+N: 825
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo14_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 825
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 753
+!!!! readPhysics !!! OK
+Reading cont 14
+N: 753
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo15_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 753
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 612
+!!!! readPhysics !!! OK
+Reading cont 15
+N: 612
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo16_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 612
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 641
+!!!! readPhysics !!! OK
+Reading cont 16
+N: 641
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo17_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 641
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 626
+!!!! readPhysics !!! OK
+Reading cont 17
+N: 626
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo18_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 626
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 1213
+!!!! readPhysics !!! OK
+Reading cont 18
+N: 1213
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo19_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 1213
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 526
+!!!! readPhysics !!! OK
+Reading cont 19
+N: 526
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo20_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 526
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Calculate raysLOG: Started calculating points to retain progress: ../../result/ngc/nograins_parallel_clumps/140/Sector20_Age140.00Myr_Fluxes.dat
+LOG: Started reading points: ../../data/ngc1569_Clump/Emis_Lines_SectorNo20_Age140.00Myr.dat
+LOG: 1 7.924466e+17
+
+LOG: 2 2.377340e+18
+
+LOG: 3 3.962233e+18
+
+LOG: 4 5.547126e+18
+
+LOG: 5 7.132019e+18
+
+LOG: 6 8.716913e+18
+
+LOG: 7 1.030181e+19
+
+LOG: 8 1.188670e+19
+
+LOG: 9 1.347159e+19
+
+LOG: 10 1.505649e+19
+
+LOG: 11 1.664138e+19
+
+LOG: 12 1.822627e+19
+
+LOG: 13 1.981116e+19
+
+LOG: 14 2.139606e+19
+
+LOG: 15 2.298095e+19
+
+LOG: 16 2.459622e+19
+
+LOG: 17 2.627477e+19
+
+LOG: 18 2.802047e+19
+
+LOG: 19 2.983599e+19
+
+LOG: 20 3.172414e+19
+
+LOG: 21 3.368781e+19
+
+LOG: 22 3.573002e+19
+
+LOG: 23 3.785393e+19
+
+LOG: 24 4.006279e+19
+
+LOG: 25 4.236001e+19
+
+LOG: 26 4.474911e+19
+
+LOG: 27 4.723378e+19
+
+LOG: 28 4.981784e+19
+
+LOG: 29 5.250526e+19
+
+LOG: 30 5.530017e+19
+
+LOG: 31 5.820688e+19
+
+LOG: 32 6.122986e+19
+
+LOG: 33 6.437376e+19
+
+LOG: 34 6.764342e+19
+
+LOG: 35 7.104386e+19
+
+LOG: 36 7.458032e+19
+
+LOG: 37 7.825824e+19
+
+LOG: 38 8.208327e+19
+
+LOG: 39 8.606131e+19
+
+LOG: 40 9.019847e+19
+
+LOG: 41 9.450111e+19
+
+LOG: 42 9.897586e+19
+
+LOG: 43 1.036296e+20
+
+LOG: 44 1.084695e+20
+
+LOG: 45 1.135030e+20
+
+LOG: 46 1.187378e+20
+
+LOG: 47 1.241820e+20
+
+LOG: 48 1.298440e+20
+
+LOG: 49 1.357325e+20
+
+LOG: 50 1.418565e+20
+
+LOG: 51 1.482254e+20
+
+LOG: 52 1.548492e+20
+
+LOG: 53 1.617378e+20
+
+LOG: 54 1.689020e+20
+
+LOG: 55 1.763528e+20
+
+LOG: 56 1.841016e+20
+
+LOG: 57 1.921604e+20
+
+LOG: 58 2.005415e+20
+
+LOG: 59 2.092579e+20
+
+LOG: 60 2.183229e+20
+
+LOG: 61 2.277505e+20
+
+LOG: 62 2.375553e+20
+
+LOG: 63 2.477522e+20
+
+LOG: 64 2.583570e+20
+
+LOG: 65 2.693860e+20
+
+LOG: 66 2.808561e+20
+
+LOG: 67 2.927851e+20
+
+LOG: 68 3.051912e+20
+
+LOG: 69 3.180935e+20
+
+LOG: 70 3.315120e+20
+
+LOG: 71 3.454671e+20
+
+LOG: 72 3.599805e+20
+
+LOG: 73 3.750745e+20
+
+LOG: 74 3.907721e+20
+
+LOG: 75 4.070977e+20
+
+LOG: 76 4.240764e+20
+
+LOG: 77 4.417341e+20
+
+LOG: 78 4.600982e+20
+
+LOG: 79 4.791968e+20
+
+LOG: 80 4.990594e+20
+
+LOG: 81 5.197165e+20
+
+LOG: 82 5.401422e+20
+
+LOG: 83 5.574278e+20
+
+LOG: 84 5.711020e+20
+
+LOG: 85 5.828263e+20
+
+LOG: 86 5.953409e+20
+
+LOG: 87 6.083687e+20
+
+LOG: 88 6.175811e+20
+
+LOG: 89 6.234585e+20
+
+LOG: 90 6.294835e+20
+
+LOG: 91 6.373159e+20
+
+LOG: 92 6.449990e+20
+
+LOG: 93 6.506931e+20
+
+LOG: 94 6.563005e+20
+
+LOG: 95 6.635902e+20
+
+LOG: 96 6.708604e+20
+
+LOG: 97 6.763449e+20
+
+LOG: 98 6.806293e+20
+
+LOG: 99 6.851136e+20
+
+LOG: 100 6.909433e+20
+
+LOG: 101 6.967678e+20
+
+LOG: 102 7.014754e+20
+
+LOG: 103 7.064852e+20
+
+LOG: 104 7.129979e+20
+
+LOG: 105 7.201173e+20
+
+LOG: 106 7.264589e+20
+
+LOG: 107 7.320838e+20
+
+LOG: 108 7.383436e+20
+
+LOG: 109 7.464814e+20
+
+LOG: 110 7.552113e+20
+
+LOG: 111 7.628303e+20
+
+LOG: 112 7.697755e+20
+
+LOG: 113 7.777257e+20
+
+LOG: 114 7.880609e+20
+
+LOG: 115 7.988811e+20
+
+LOG: 116 8.073782e+20
+
+LOG: 117 8.154708e+20
+
+LOG: 118 8.259912e+20
+
+LOG: 119 8.369038e+20
+
+LOG: 120 8.460040e+20
+
+LOG: 121 8.555119e+20
+
+LOG: 122 8.661810e+20
+
+LOG: 123 8.759783e+20
+
+LOG: 124 8.848424e+20
+
+LOG: 125 8.948747e+20
+
+LOG: 126 9.058109e+20
+
+LOG: 127 9.155139e+20
+
+LOG: 128 9.243768e+20
+
+LOG: 129 9.345559e+20
+
+LOG: 130 9.456173e+20
+
+LOG: 131 9.555787e+20
+
+LOG: 132 9.648670e+20
+
+LOG: 133 9.755273e+20
+
+LOG: 134 9.871681e+20
+
+LOG: 135 9.978138e+20
+
+LOG: 136 1.007798e+21
+
+LOG: 137 1.019193e+21
+
+LOG: 138 1.030911e+21
+
+LOG: 139 1.040374e+21
+
+LOG: 140 1.049999e+21
+
+LOG: 141 1.062511e+21
+
+LOG: 142 1.075521e+21
+
+LOG: 143 1.086259e+21
+
+LOG: 144 1.097303e+21
+
+LOG: 145 1.111659e+21
+
+LOG: 146 1.126242e+21
+
+LOG: 147 1.138202e+21
+
+LOG: 148 1.150833e+21
+
+LOG: 149 1.167252e+21
+
+LOG: 150 1.184266e+21
+
+LOG: 151 1.198496e+21
+
+LOG: 152 1.213439e+21
+
+LOG: 153 1.232865e+21
+
+LOG: 154 1.253710e+21
+
+LOG: 155 1.270071e+21
+
+LOG: 156 1.282406e+21
+
+LOG: 157 1.295837e+21
+
+LOG: 158 1.313296e+21
+
+LOG: 159 1.332130e+21
+
+LOG: 160 1.349444e+21
+
+LOG: 161 1.368645e+21
+
+LOG: 162 1.390222e+21
+
+LOG: 163 1.410353e+21
+
+LOG: 164 1.429093e+21
+
+LOG: 165 1.450560e+21
+
+LOG: 166 1.478466e+21
+
+LOG: 167 1.507575e+21
+
+LOG: 168 1.532254e+21
+
+LOG: 169 1.558344e+21
+
+LOG: 170 1.592261e+21
+
+LOG: 171 1.629244e+21
+
+LOG: 172 1.670215e+21
+
+LOG: 173 1.723477e+21
+
+LOG: 174 1.789001e+21
+
+LOG: 175 1.861255e+21
+
+LOG: 176 1.930047e+21
+
+LOG: 177 1.969993e+21
+
+LOG: 178 1.979979e+21
+
+LOG: 179 1.983392e+21
+
+LOG: 180 1.986649e+21
+
+LOG: 181 1.990883e+21
+
+LOG: 182 1.996386e+21
+
+LOG: 183 2.003541e+21
+
+LOG: 184 2.011144e+21
+
+LOG: 185 2.017740e+21
+
+LOG: 186 2.024724e+21
+
+LOG: 187 2.032389e+21
+
+LOG: 188 2.039405e+21
+
+LOG: 189 2.046993e+21
+
+LOG: 190 2.055430e+21
+
+LOG: 191 2.062666e+21
+
+LOG: 192 2.068522e+21
+
+LOG: 193 2.074890e+21
+
+LOG: 194 2.083167e+21
+
+LOG: 195 2.091429e+21
+
+LOG: 196 2.097449e+21
+
+LOG: 197 2.102315e+21
+
+LOG: 198 2.107903e+21
+
+LOG: 199 2.115167e+21
+
+LOG: 200 2.122824e+21
+
+LOG: 201 2.129323e+21
+
+LOG: 202 2.136107e+21
+
+LOG: 203 2.143773e+21
+
+LOG: 204 2.151068e+21
+
+LOG: 205 2.157957e+21
+
+LOG: 206 2.165834e+21
+
+LOG: 207 2.174586e+21
+
+LOG: 208 2.181730e+21
+
+LOG: 209 2.186888e+21
+
+LOG: 210 2.192209e+21
+
+LOG: 211 2.199127e+21
+
+LOG: 212 2.208120e+21
+
+LOG: 213 2.217464e+21
+
+LOG: 214 2.225294e+21
+
+LOG: 215 2.233502e+21
+
+LOG: 216 2.244173e+21
+
+LOG: 217 2.255324e+21
+
+LOG: 218 2.264737e+21
+
+LOG: 219 2.274611e+21
+
+LOG: 220 2.285916e+21
+
+LOG: 221 2.293219e+21
+
+LOG: 222 2.296846e+21
+
+LOG: 223 2.299689e+21
+
+LOG: 224 2.301274e+21
+
+LOG: 225 2.302859e+21
+
+LOG: 226 2.304444e+21
+
+LOG: 227 2.306029e+21
+
+LOG: 228 2.307613e+21
+
+LOG: 229 2.309198e+21
+
+LOG: 230 2.310783e+21
+
+LOG: 231 2.312368e+21
+
+LOG: 232 2.313953e+21
+
+LOG: 233 2.315538e+21
+
+LOG: 234 2.317123e+21
+
+LOG: 235 2.318708e+21
+
+LOG: 236 2.320293e+21
+
+LOG: 237 2.321877e+21
+
+LOG: 238 2.323462e+21
+
+LOG: 239 2.325047e+21
+
+LOG: 240 2.326632e+21
+
+LOG: 241 2.328217e+21
+
+LOG: 242 2.329731e+21
+
+LOG: 243 2.331244e+21
+
+LOG: 244 2.332829e+21
+
+LOG: 245 2.334414e+21
+
+LOG: 246 2.335928e+21
+
+LOG: 247 2.337305e+21
+
+LOG: 248 2.338558e+21
+
+LOG: 249 2.339699e+21
+
+LOG: 250 2.340737e+21
+
+LOG: 251 2.341681e+21
+
+LOG: 252 2.342541e+21
+
+LOG: 253 2.343743e+21
+
+LOG: 254 2.345256e+21
+
+LOG: 255 2.346634e+21
+
+LOG: 256 2.347887e+21
+
+LOG: 257 2.349277e+21
+
+LOG: 258 2.350790e+21
+
+LOG: 259 2.352168e+21
+
+LOG: 260 2.353616e+21
+
+LOG: 261 2.355439e+21
+
+LOG: 262 2.357808e+21
+
+LOG: 263 2.360889e+21
+
+LOG: 264 2.364311e+21
+
+LOG: 265 2.368179e+21
+
+LOG: 266 2.372355e+21
+
+LOG: 267 2.376103e+21
+
+LOG: 268 2.380146e+21
+
+LOG: 269 2.384512e+21
+
+LOG: 270 2.388484e+21
+
+LOG: 271 2.392099e+21
+
+LOG: 272 2.395426e+21
+
+LOG: 273 2.398963e+21
+
+LOG: 274 2.402652e+21
+
+LOG: 275 2.406137e+21
+
+LOG: 276 2.409725e+21
+
+LOG: 277 2.413087e+21
+
+LOG: 278 2.416337e+21
+
+LOG: 279 2.419775e+21
+
+LOG: 280 2.423224e+21
+
+LOG: 281 2.427275e+21
+
+LOG: 282 2.432543e+21
+
+LOG: 283 2.439390e+21
+
+LOG: 284 2.447320e+21
+
+LOG: 285 2.455231e+21
+
+LOG: 286 2.462689e+21
+
+LOG: 287 2.469940e+21
+
+LOG: 288 2.477189e+21
+
+LOG: 289 2.484393e+21
+
+LOG: 290 2.492672e+21
+
+LOG: 291 2.503434e+21
+
+LOG: 292 2.516262e+21
+
+LOG: 293 2.527942e+21
+
+LOG: 294 2.536025e+21
+
+LOG: 295 2.541740e+21
+
+LOG: 296 2.546672e+21
+
+LOG: 297 2.551551e+21
+
+LOG: 298 2.556176e+21
+
+LOG: 299 2.560466e+21
+
+LOG: 300 2.564557e+21
+
+LOG: 301 2.568543e+21
+
+LOG: 302 2.572580e+21
+
+LOG: 303 2.576452e+21
+
+LOG: 304 2.580242e+21
+
+LOG: 305 2.583988e+21
+
+LOG: 306 2.587691e+21
+
+LOG: 307 2.591271e+21
+
+LOG: 308 2.594510e+21
+
+LOG: 309 2.597626e+21
+
+LOG: 310 2.600844e+21
+
+LOG: 311 2.603997e+21
+
+LOG: 312 2.607072e+21
+
+LOG: 313 2.610100e+21
+
+LOG: 314 2.613104e+21
+
+LOG: 315 2.616090e+21
+
+LOG: 316 2.619057e+21
+
+LOG: 317 2.622005e+21
+
+LOG: 318 2.624757e+21
+
+LOG: 319 2.627204e+21
+
+LOG: 320 2.629597e+21
+
+LOG: 321 2.631938e+21
+
+LOG: 322 2.634255e+21
+
+LOG: 323 2.636662e+21
+
+LOG: 324 2.638947e+21
+
+LOG: 325 2.641229e+21
+
+LOG: 326 2.643634e+21
+
+LOG: 327 2.645941e+21
+
+LOG: 328 2.648257e+21
+
+LOG: 329 2.650707e+21
+
+LOG: 330 2.653160e+21
+
+LOG: 331 2.655600e+21
+
+LOG: 332 2.658057e+21
+
+LOG: 333 2.660903e+21
+
+LOG: 334 2.664336e+21
+
+LOG: 335 2.668150e+21
+
+LOG: 336 2.672193e+21
+
+LOG: 337 2.676343e+21
+
+LOG: 338 2.680596e+21
+
+LOG: 339 2.684994e+21
+
+LOG: 340 2.689614e+21
+
+LOG: 341 2.694452e+21
+
+LOG: 342 2.700104e+21
+
+LOG: 343 2.707451e+21
+
+LOG: 344 2.717003e+21
+
+LOG: 345 2.729420e+21
+
+LOG: 346 2.743481e+21
+
+LOG: 347 2.757275e+21
+
+LOG: 348 2.771214e+21
+
+LOG: 349 2.787747e+21
+
+LOG: 350 2.806559e+21
+
+LOG: 351 2.825138e+21
+
+LOG: 352 2.843748e+21
+
+LOG: 353 2.863362e+21
+
+LOG: 354 2.886627e+21
+
+LOG: 355 2.913286e+21
+
+LOG: 356 2.940190e+21
+
+LOG: 357 2.963977e+21
+
+LOG: 358 2.981414e+21
+
+LOG: 359 2.992133e+21
+
+LOG: 360 2.999577e+21
+
+LOG: 361 3.007360e+21
+
+LOG: 362 3.015058e+21
+
+LOG: 363 3.022597e+21
+
+LOG: 364 3.030471e+21
+
+LOG: 365 3.038702e+21
+
+LOG: 366 3.047177e+21
+
+LOG: 367 3.055745e+21
+
+LOG: 368 3.064556e+21
+
+LOG: 369 3.073712e+21
+
+LOG: 370 3.083186e+21
+
+LOG: 371 3.092983e+21
+
+LOG: 372 3.103098e+21
+
+LOG: 373 3.113534e+21
+
+LOG: 374 3.123408e+21
+
+LOG: 375 3.132248e+21
+
+LOG: 376 3.141131e+21
+
+LOG: 377 3.150610e+21
+
+LOG: 378 3.161383e+21
+
+LOG: 379 3.173187e+21
+
+LOG: 380 3.185489e+21
+
+LOG: 381 3.200236e+21
+
+LOG: 382 3.219408e+21
+
+LOG: 383 3.242072e+21
+
+LOG: 384 3.265451e+21
+
+LOG: 385 3.288845e+21
+
+LOG: 386 3.314682e+21
+
+LOG: 387 3.342758e+21
+
+LOG: 388 3.370169e+21
+
+LOG: 389 3.396493e+21
+
+LOG: 390 3.425328e+21
+
+LOG: 391 3.455917e+21
+
+LOG: 392 3.483342e+21
+
+LOG: 393 3.508231e+21
+
+LOG: 394 3.536071e+21
+
+LOG: 395 3.567344e+21
+
+LOG: 396 3.598727e+21
+
+LOG: 397 3.630337e+21
+
+LOG: 398 3.663166e+21
+
+LOG: 399 3.700615e+21
+
+LOG: 400 3.741670e+21
+
+LOG: 401 3.782769e+21
+
+LOG: 402 3.826867e+21
+
+LOG: 403 3.869184e+21
+
+LOG: 404 3.903042e+21
+
+LOG: 405 3.932471e+21
+
+LOG: 406 3.962031e+21
+
+LOG: 407 3.993636e+21
+
+LOG: 408 4.031300e+21
+
+LOG: 409 4.080264e+21
+
+LOG: 410 4.127971e+21
+
+LOG: 411 4.164027e+21
+
+LOG: 412 4.192872e+21
+
+LOG: 413 4.215948e+21
+
+LOG: 414 4.235935e+21
+
+LOG: 415 4.257285e+21
+
+LOG: 416 4.284007e+21
+
+LOG: 417 4.318745e+21
+
+LOG: 418 4.363904e+21
+
+LOG: 419 4.406722e+21
+
+LOG: 420 4.437849e+21
+
+LOG: 421 4.464091e+21
+
+LOG: 422 4.489597e+21
+
+LOG: 423 4.516559e+21
+
+LOG: 424 4.544664e+21
+
+LOG: 425 4.572337e+21
+
+LOG: 426 4.599926e+21
+
+LOG: 427 4.629182e+21
+
+LOG: 428 4.660589e+21
+
+LOG: 429 4.696687e+21
+
+LOG: 430 4.742207e+21
+
+LOG: 431 4.801382e+21
+
+LOG: 432 4.874828e+21
+
+LOG: 433 4.940037e+21
+
+LOG: 434 4.988803e+21
+
+LOG: 435 5.032859e+21
+
+LOG: 436 5.071873e+21
+
+LOG: 437 5.112442e+21
+
+LOG: 438 5.155033e+21
+
+LOG: 439 5.202267e+21
+
+LOG: 440 5.260033e+21
+
+LOG: 441 5.316312e+21
+
+LOG: 442 5.364683e+21
+
+LOG: 443 5.406375e+21
+
+LOG: 444 5.440454e+21
+
+LOG: 445 5.469713e+21
+
+LOG: 446 5.497309e+21
+
+LOG: 447 5.525583e+21
+
+LOG: 448 5.553192e+21
+
+LOG: 449 5.578017e+21
+
+LOG: 450 5.600353e+21
+
+LOG: 451 5.621234e+21
+
+LOG: 452 5.640177e+21
+
+LOG: 453 5.658568e+21
+
+LOG: 454 5.680138e+21
+
+LOG: 455 5.703473e+21
+
+LOG: 456 5.725888e+21
+
+LOG: 457 5.746725e+21
+
+LOG: 458 5.765804e+21
+
+LOG: 459 5.783670e+21
+
+LOG: 460 5.800124e+21
+
+LOG: 461 5.815346e+21
+
+LOG: 462 5.830433e+21
+
+LOG: 463 5.846676e+21
+
+LOG: 464 5.863618e+21
+
+LOG: 465 5.880486e+21
+
+LOG: 466 5.897223e+21
+
+LOG: 467 5.912705e+21
+
+LOG: 468 5.927191e+21
+
+LOG: 469 5.940638e+21
+
+LOG: 470 5.952878e+21
+
+LOG: 471 5.964796e+21
+
+LOG: 472 5.975653e+21
+
+LOG: 473 5.985607e+21
+
+LOG: 474 5.995458e+21
+
+LOG: 475 6.005340e+21
+
+LOG: 476 6.015202e+21
+
+LOG: 477 6.025082e+21
+
+LOG: 478 6.035610e+21
+
+LOG: 479 6.048445e+21
+
+LOG: 480 6.063040e+21
+
+LOG: 481 6.076825e+21
+
+LOG: 482 6.089409e+21
+
+LOG: 483 6.101753e+21
+
+LOG: 484 6.112922e+21
+
+LOG: 485 6.122910e+21
+
+LOG: 486 6.132933e+21
+
+LOG: 487 6.141958e+21
+
+LOG: 488 6.149816e+21
+
+LOG: 489 6.157766e+21
+
+LOG: 490 6.165685e+21
+
+LOG: 491 6.172597e+21
+
+LOG: 492 6.178356e+21
+
+LOG: 493 6.183709e+21
+
+LOG: 494 6.189098e+21
+
+LOG: 495 6.194469e+21
+
+LOG: 496 6.199840e+21
+
+LOG: 497 6.206016e+21
+
+LOG: 498 6.214046e+21
+
+LOG: 499 6.224484e+21
+
+LOG: 500 6.237151e+21
+
+LOG: 501 6.251746e+21
+
+LOG: 502 6.268058e+21
+
+LOG: 503 6.284551e+21
+
+LOG: 504 6.299729e+21
+
+LOG: 505 6.314057e+21
+
+LOG: 506 6.327661e+21
+
+LOG: 507 6.340348e+21
+
+LOG: 508 6.351951e+21
+
+LOG: 509 6.362399e+21
+
+LOG: 510 6.372534e+21
+
+LOG: 511 6.382659e+21
+
+LOG: 512 6.392857e+21
+
+LOG: 513 6.403101e+21
+
+LOG: 514 6.413369e+21
+
+LOG: 515 6.425204e+21
+
+LOG: 516 6.440589e+21
+
+LOG: 517 6.460590e+21
+
+LOG: 518 6.486592e+21
+
+LOG: 519 6.520394e+21
+
+LOG: 520 6.564336e+21
+
+LOG: 521 6.621461e+21
+
+LOG: 522 6.695724e+21
+
+LOG: 523 6.775147e+21
+
+LOG: 524 6.849908e+21
+
+LOG: 525 6.934479e+21
+
+LOG: 526 6.934479e+21
+
+Process (30353) exiting
+No12_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 688
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 770
+!!!! readPhysics !!! OK
+Reading cont 12
+N: 770
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo13_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 770
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 825
+!!!! readPhysics !!! OK
+Reading cont 13
+N: 825
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo14_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 825
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 753
+!!!! readPhysics !!! OK
+Reading cont 14
+N: 753
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo15_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 753
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 612
+!!!! readPhysics !!! OK
+Reading cont 15
+N: 612
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo16_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 612
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 641
+!!!! readPhysics !!! OK
+Reading cont 16
+N: 641
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo17_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 641
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 626
+!!!! readPhysics !!! OK
+Reading cont 17
+N: 626
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo18_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 626
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 1213
+!!!! readPhysics !!! OK
+Reading cont 18
+N: 1213
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo19_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 1213
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Reading physics
+N: 526
+!!!! readPhysics !!! OK
+Reading cont 19
+N: 526
+!!!! readEmissivity !!! OK
+!!!! readOpacity !!! OK
+reading trans...
+../../data/ngc1569_Clump/Emis_Trans_SectorNo20_Age140.00Myr.dat
+WARNING: FILE NOT FOUNDtransitions_readen!!!!readTransitions !!! OK
+reading abunds...
+Reading abundances
+N: 526
+!!!readAbunds!!! OK
+!!!readInwardFluxes!!! OK
+!!!readTemps!!! OK
+Calculate raysLOG: Started calculating points to retain progress: ../../result/ngc/nograins_parallel_clumps/140/Sector22_Age140.00Myr_Fluxes.dat
+Unable to open file with points ../../data/ngc1569_Clump/Emis_Lines_SectorNo22_Age140.00Myr.datProcess (30352) exiting
+Process (30356) exiting
+Process (30350) exiting
+Entering 30356 for 22 (4)
+Parent saw 30353 exiting
+Parent saw 30352 exiting
+Parent saw 30356 exiting
+Parent saw 30350 exiting
+Finished iter 4
