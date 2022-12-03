@@ -41,8 +41,8 @@ while is_sector <= max_sector:
 
         try:
             with open(f'commands\\commands{age}.{r_Sector}.i{Iteration}.ini', 'r') as data:
+                print(data)
                 for d in data:
-                    print(data)
                     print(d)
         except FileNotFoundError as err:
             print(err)
